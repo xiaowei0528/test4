@@ -1,0 +1,119 @@
+{
+	"complete_100_lvl": {
+		"achievement_family": "level",
+		"achievement_animation": "complete_100_lvl"
+	},
+	"complete_200_lvl": {
+		"achievement_family": "level",
+		"achievement_animation": "complete_200_lvl"
+	},
+	"complete_300_lvl": {
+		"achievement_family": "level",
+		"achievement_animation": "complete_300_lvl"
+	},
+	"complete_400_lvl": {
+		"achievement_family": "level",
+		"achievement_animation": "complete_400_lvl"
+	},
+	"collect_blue_gift_5": {
+		"achievement_family": "blue_gift",
+		"achievement_animation": "collect_blue_gift_5"
+	},
+	"collect_blue_gift_15": {
+		"achievement_family": "blue_gift",
+		"achievement_animation": "collect_blue_gift_15"
+	},
+	"collect_blue_gift_25": {
+		"achievement_family": "blue_gift",
+		"achievement_animation": "collect_blue_gift_25"
+	},
+	"collect_pink_gift_5": {
+		"achievement_family": "pink_gift",
+		"achievement_animation": "collect_pink_gift_5"
+	},
+	"collect_pink_gift_15": {
+		"achievement_family": "pink_gift",
+		"achievement_animation": "collect_pink_gift_15"
+	},
+	"collect_pink_gift_25": {
+		"achievement_family": "pink_gift",
+		"achievement_animation": "collect_pink_gift_25"
+	},
+	"collect_pink_gift_50": {
+		"achievement_family": "pink_gift",
+		"achievement_animation": "collect_pink_gift_50"
+	},
+	"collect_pink_gift_80": {
+		"achievement_family": "pink_gift",
+		"achievement_animation": "collect_pink_gift_80"
+	},
+	"collect_green_gift_25": {
+		"achievement_family": "green_gift",
+		"achievement_animation": "collect_green_gift_25"
+	},
+	"collect_green_gift_50": {
+		"achievement_family": "green_gift",
+		"achievement_animation": "collect_green_gift_50"
+	},
+	"collect_green_gift_100": {
+		"achievement_family": "green_gift",
+		"achievement_animation": "collect_green_gift_100"
+	},
+	"collect_green_gift_200": {
+		"achievement_family": "green_gift",
+		"achievement_animation": "collect_green_gift_200"
+	},
+	"collect_green_gift_240": {
+		"achievement_family": "green_gift",
+		"achievement_animation": "collect_green_gift_240"
+	},
+	"play_5": {
+		"achievement_family": "play",
+		"achievement_animation": "play_5"
+	},
+	"play_15": {
+		"achievement_family": "play",
+		"achievement_animation": "play_15"
+	},
+	"play_50": {
+		"achievement_family": "play",
+		"achievement_animation": "play_50"
+	},
+	"reach_score_10000": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_score_10000"
+	},
+	"reach_score_20000": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_score_20000"
+	},
+	"reach_score_30000": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_score_30000"
+	},
+	"break_block_100": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_100"
+	},
+	"break_block_200": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_200"
+	},
+	"break_block_300": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_300"
+	},
+	"break_block_500": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_500"
+	},
+	"break_block_1000": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_1000"
+	},
+	"break_block_5000": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_5000"
+	}
+	
+}

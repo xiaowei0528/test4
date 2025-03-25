@@ -1,0 +1,46 @@
+{
+	"reward_daily":{
+		 "de": "Dein tägliches Geschenk wartet auf dich"
+		,"en": "Your daily reward is waiting for you"
+		,"es": "Tu regalo diario te está esperando"
+		,"fr": "Votre cadeau quotidien vous attend"
+		,"it": "Il tuo regalo quotidiano ti sta aspettando"
+		,"ko": "매일 보내는 선물이 기다리고 있습니다."
+		,"pt": "Seu presente diário está esperando por você"
+		,"tr": "Günlük hediyeniz sizi bekliyor"
+		,"af": "Jou daaglikse geskenk wag vir jou"
+		,"ms": "Hadiah harian anda sedang menunggu anda"
+		,"nl": "Je dagelijkse geschenk wacht op je"
+		,"ru": "Ваш ежедневный подарок ждет вас"
+		,"vn": "Món quà hàng ngày của bạn đang chờ bạn"
+		,"zh": "您的每日礼物等着您"
+		,"tw": "您的每日禮物等著您"
+		,"ar": "الهدية اليومية في انتظارك"
+		,"hi": "आपका दैनिक उपहार आपके लिए इंतजार कर रहा है"
+		,"id": "Hadiah harianmu sudah menunggumu"
+		,"ja": "毎日の贈り物があなたを待っています"
+		,"th": "ของขวัญประจำวันกำลังรอคุณอยู่"
+	},
+	"daily_quests_headsup":{
+		"de": "Beende deine tägliche Herausforderung, bevor es zu spät ist!",
+		"en": "Complete your daily challenges before it's too late !",
+		"es": "¡Completa tu desafío diario antes de que sea demasiado tarde!",
+		"fr": "Terminez vos défis quotidiens avant qu'il ne soit trop tard!",
+		"it": "Completa la tua sfida quotidiana prima che sia troppo tardi!",
+		"ko": "너무 늦기 전에 일상적인 도전을 완료하십시오!",
+		"pt": "Complete seu desafio diário antes que seja tarde demais!",
+		"tr": "Çok geç olmadan günlük mücadelenizi tamamlayın!",
+		"af": "Voltooi jou daaglikse uitdaging voordat dit te laat is!",
+		"ms": "Lengkapkan cabaran harian anda sebelum terlambat!",
+		"nl": "Voltooi je dagelijkse uitdaging voordat het te laat is!",
+		"ru": "Завершите свой ежедневный вызов, пока не стало слишком поздно!",
+		"vn": "Hoàn thành thử thách hàng ngày của bạn trước khi quá muộn!",
+		"zh": "在为时已晚之前完成您的每日挑战！",
+		"tw": "在為時已晚之前完成您的每日挑戰！",
+		"ar": "أكمل تحديك اليومي قبل فوات الأوان!",
+		"hi": "बहुत देर हो चुकी है इससे पहले अपनी दैनिक चुनौती पूरी करें!",
+		"id": "Selesaikan tantangan harian Anda sebelum terlambat!",
+		"ja": "それが遅すぎる前にあなたの毎日の挑戦を完了してください！",
+		"th": "เติมเต็มความท้าทายในชีวิตประจำวันของคุณก่อนที่มันจะสายเกินไป!"
+	}
+}

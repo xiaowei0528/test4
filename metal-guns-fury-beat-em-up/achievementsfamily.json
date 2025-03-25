@@ -1,0 +1,39 @@
+{  
+  "achievementCategory":{  
+    "kill_mob":[  
+      "first_blood",
+      "newbie",
+      "unstoppable",
+      "killing_machine",
+      "monster_killer",
+      "monster_terminator",
+      "king_of_the_world",
+      "god_like"
+    ],
+    "kill_boss":[  
+      "boss_killer",
+      "boss_terminator"
+    ],
+    "play_time":[
+   "zombie_beginner" ,
+   "zombie_fan",
+      "zombie_fanatic",
+      "zombie_expert",
+      "zombie_scientist",
+      "zombie_artist"
+    ],
+    "levels":[  
+      "second_lieutenant",
+      "captain",
+      "major",
+      "lieutenant_colonel",
+      "colonel",
+      "brigardier_general",
+      "major_general"
+    ],
+    "weapons":[  
+      "weapon_collector",
+      "arms_dealer"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "shop": {
+       "friend": {
+            "name": "friend",
+            "idName": "friend",
+            "quantityMax": 1,
+            "unlocked": 0,
+            "type": "consumable",
+            "moneyType": "premium",
+            "price": 0,
+            "quantity": 1,
+            "star": 0
+        },
+        "bff": {
+            "name": "bff",
+            "idName": "bff",
+            "quantityMax": 1,
+            "unlocked": 0,
+            "type": "consumable",
+            "moneyType": "premium",
+            "price": 100,
+            "quantity": 1,
+            "star": 125
+        },
+        "sexual": {
+            "name": "sexual",
+            "idName": "sexual",
+            "quantityMax": 1,
+            "unlocked": 0,
+            "type": "consumable",
+            "moneyType": "premium",
+            "price": 100,
+            "quantity": 1,
+            "star": 125
+        }
+    }
+}

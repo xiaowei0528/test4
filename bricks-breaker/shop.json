@@ -1,0 +1,634 @@
+{
+	"shop": {
+		"package-1": {
+			"quantity": 1,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-2": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-3": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-4": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-5": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-6": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-7": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-8": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-9": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-10": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-11": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-12": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-13": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-14": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-15": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-16": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-17": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-18": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-19": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-20": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-21": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-22": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-23": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-24": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-25": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-26": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-27": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-28": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-29": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-30": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-31": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-32": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-33": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-34": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-35": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-36": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-37": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-38": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-39": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-40": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-41": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-42": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-43": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-44": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-45": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-46": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-47": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-48": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-49": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-50": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-51": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-52": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-53": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-54": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-55": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-56": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-57": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-58": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-59": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-60": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-61": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-62": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-63": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-64": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-65": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-66": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-67": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-68": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-69": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-70": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-71": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-72": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-73": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-74": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-75": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-76": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-77": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-78": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-79": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-80": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-81": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-82": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-83": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-84": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-85": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-86": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-87": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-88": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-89": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		},
+		"package-90": {
+			"quantity": 0,
+			"quantityMax": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100
+		}
+	}
+}

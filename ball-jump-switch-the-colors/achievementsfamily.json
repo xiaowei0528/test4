@@ -1,0 +1,72 @@
+{
+	"ball_circle": {
+		"achievement_family": "ball",
+		"achievement_animation": "ball_circle"
+	},
+	"ball_target": {
+		"achievement_family": "ball",
+		"achievement_animation": "ball_target"
+	},
+	"ball_spike": {
+		"achievement_family": "ball",
+		"achievement_animation": "ball_spike"
+	},
+	"ball_nuclear": {
+		"achievement_family": "ball",
+		"achievement_animation": "ball_nuclear"
+	},
+	"ball_gear": {
+		"achievement_family": "ball",
+		"achievement_animation": "ball_gear"
+	},
+	"reach_5": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_5"
+	},
+	"reach_25": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_25"
+	},
+	"reach_50": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_50"
+	},
+	"reach_100": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_100"
+	},
+	"reach_200": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_200"
+	},
+	"reach_300": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_300"
+	},
+	"reach_400": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_400"
+	},
+	"collect_star_10": {
+		"achievement_family": "collect",
+		"achievement_animation": "collect_star_10"
+	},
+	"collect_star_100": {
+		"achievement_family": "collect",
+		"achievement_animation": "collect_star_100"
+	},
+	"collect_star_200": {
+		"achievement_family": "collect",
+		"achievement_animation": "collect_star_200"
+	},
+	"collect_star_500": {
+		"achievement_family": "collect",
+		"achievement_animation": "collect_star_500"
+	},
+	"collect_star_1000": {
+		"achievement_family": "collect",
+		"achievement_animation": "collect_star_1000"
+	}
+
+	
+}

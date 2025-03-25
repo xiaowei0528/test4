@@ -1,0 +1,59 @@
+{
+
+  "shop": {
+    "0": {
+      "type": "upgradable",
+      "name": "Theme 0",
+      "idName": "theme0",
+      "quantity": 1,
+      "quantityMax": 1,
+      "moneyType": "normal",
+      "price": 0
+    },
+    "1": {
+      "type": "upgradable",
+      "name": "Theme 1",
+      "idName": "theme1",
+      "quantity": 0,
+      "quantityMax": 1,
+      "moneyType": "normal",
+      "price": 200
+    },
+    "2": {
+      "type": "upgradable",
+      "name": "Theme 2",
+      "idName": "theme2",
+      "quantity": 0,
+      "quantityMax": 1,
+      "moneyType": "normal",
+      "price": 200
+    },
+    "3": {
+      "type": "upgradable",
+      "name": "Theme 3",
+      "idName": "theme3",
+      "quantity": 0,
+      "quantityMax": 1,
+      "moneyType": "normal",
+      "price": 200
+    },
+    "4": {
+      "type": "upgradable",
+      "name": "Theme 4",
+      "idName": "theme4",
+      "quantity": 0,
+      "quantityMax": 1,
+      "moneyType": "normal",
+      "price": 200
+    },
+    "5": {
+      "type": "upgradable",
+      "name": "Theme 5",
+      "idName": "theme5",
+      "quantity": 0,
+      "quantityMax": 1,
+      "moneyType": "normal",
+      "price": 200
+    }
+  }
+}

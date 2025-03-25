@@ -1,0 +1,352 @@
+{
+	"5":{
+		"0":{
+			"torque" : 120,	// a percentage of bonus to applyed to the {acceleration} specific to the shift,
+			"ramps":{
+				"early":{
+					"from":0,
+					"to":0,
+					"func":function(){	return 0;	}
+				},
+				"rampUp":{
+					"from":0,
+					"to":0,
+					"func":Math.giveMeOne
+				},
+				"flat":{
+					"from":0,
+					"to":10.7,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":10,
+					"to":14.3,
+					"func":function(t, b, c, d){ return 1- Math.easeInExpo(t, b, c, d);	}
+				},
+				"late":{
+					"from":14,
+					"to":9999,
+					"func":function(){	return 0;	}
+				}
+			},
+			"drift":{
+				"until":4,
+				"func": Math.easeOutExpo
+			}
+		},
+		"1":{
+			"torque" : 120,
+			"ramps":{
+				"early":{
+					"from":0,
+					"to":6.7,
+					"func":function(){	return 0.05;	}
+				},
+				"rampUp":{
+					"from":6.6,
+					"to":17.1,
+					"func":Math.easeOutQuint
+				},
+				"flat":{
+					"from":17,
+					"to":21.4,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":21.3,
+					"to":32.1,
+					"func":function(t, b, c, d){ return 1- Math.easeInExpo(t, b, c, d);	}
+				},
+				"late":{
+					"from":32,
+					"to":9999,
+					"func":function(){	return 0;	}
+				}
+			},
+			"drift":{
+				"until":10,
+				"func": Math.easeOutExpo
+			}
+		},
+		"2":{
+			"torque" : 110,
+			"ramps":{
+				"early":{
+					"from":0,
+					"to":12.4,
+					"func":function(){	return 0.05;	}
+				},
+				"rampUp":{
+					"from":12.3,
+					"to":25,
+					"func":Math.easeOutQuint
+				},
+				"flat":{
+					"from":24.9,
+					"to":46.4,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":46.3,
+					"to":55.7,
+					"func":function(t, b, c, d){ return 1- Math.easeInExpo(t, b, c, d);	}
+				},
+				"late":{
+					"from":55.6,
+					"to":9999,
+					"func":function(){	return 0;	}
+				}
+			}
+		},
+		"3":{
+			"torque" : 100,
+			"ramps":{
+				"early":{
+					"from":0,
+					"to":21.4,
+					"func":function(){	return 0.05;	}
+				},
+				"rampUp":{
+					"from":21.3,
+					"to":32.1,
+					"func":Math.easeOutQuad
+				},
+				"flat":{
+					"from":32.1,
+					"to":71.4,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":71.3,
+					"to":78.6,
+					"func":function(t, b, c, d){ return 1- Math.easeInExpo(t, b, c, d);	}
+				},
+				"late":{
+					"from":78.5,
+					"to":9999,
+					"func":function(){	return 0;	}
+				}
+			}
+		},
+		"4":{
+			"torque" : 80,
+			"ramps":{
+				"early":{
+					"from":0,
+					"to":30,
+					"func":function(){	return 0.05;	}
+				},
+				"rampUp":{
+					"from":29.9,
+					"to":40,
+					"func":Math.easeOutQuad
+				},
+				"flat":{
+					"from":39.9,
+					"to":80.9,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":80.8,
+					"to":98,
+					"func":function(t, b, c, d){ return Math.max(1 - Math.easeInExpo(t, b, c, d), 0.015);	}
+				},
+				"late":{
+					"from":97,
+					"to":9999,
+					"func":function(){	return 0;	}
+				}
+			}
+		}
+	},
+	"6":{
+		"0":{
+			"torque" : 230,	//170 a percentage of bonus to applyed to the {acceleration} specific to the shift,
+			"ramps":{
+				"early":{
+					"from":-10,
+					"to":0,
+					"func":function(){	return 0;	}
+				},
+				"rampUp":{
+					"from":0,
+					"to":0,
+					"func":Math.giveMeOne
+				},
+				"flat":{
+					"from":0,
+					"to":30.1,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":30,
+					"to":32,
+					"func":function(t, b, c, d){ return (Math.nearlyFlat(t, b, c, d))/2;	}
+				},
+				"late":{
+					"from":31.8,
+					"to":9999,
+					"func":function(){	return  0;	}
+				}
+			},
+			"drift":{
+				"until":4,
+				"func": Math.easeOutExpo
+			}
+		},
+		"1":{
+			"torque" : 120,
+			"ramps":{
+				"early":{
+					"from":0,
+					"to":30.7,
+					"func":function(t, b, c, d){ return (Math.easeOutQuint(t, b, c, d))/2;	}
+				},
+				"rampUp":{
+					"from":30.6,
+					"to":40.1,
+					"func":Math.easeOutQuint
+				},
+				"flat":{
+					"from":40,
+					"to":45.4,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":45.3,
+					"to":47.1,
+					"func":function(t, b, c, d){ return (Math.nearlyFlat(t, b, c, d))/2;	}
+				},
+				"late":{
+					"from":51,
+					"to":9999,
+					"func":function(){	return  0;	}
+				}
+			},
+			"drift":{
+				"until":10,
+				"func": Math.easeOutExpo
+			}
+		},
+		"2":{
+			"torque" : 115,
+			"ramps":{
+				"early":{
+					"from":0,
+					"to":45.1,
+					"func":function(t, b, c, d){ return (Math.easeOutQuint(t, b, c, d))/2;	}
+				},
+				"rampUp":{
+					"from":45,
+					"to":56,
+					"func":Math.easeOutQuint
+				},
+				"flat":{
+					"from":56.9,
+					"to":61.1,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":61,
+					"to":63,
+					"func":function(t, b, c, d){ return (Math.nearlyFlat(t, b, c, d))/2;	}
+				},
+				"late":{
+					"from":70,
+					"to":9999,
+					"func":function(){	return  0;	}
+				}
+			}
+		},
+		"3":{
+			"torque" : 105,
+			"ramps":{
+				"early":{
+					"from":0,
+					"to":61,
+					"func":function(t, b, c, d){ return (Math.easeOutQuint(t, b, c, d))/2;	}
+				},
+				"rampUp":{
+					"from":61.1,
+					"to":67.1,
+					"func":Math.easeOutQuint
+				},
+				"flat":{
+					"from":67,
+					"to":70.4,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":70,
+					"to":75.6,
+					"func":function(t, b, c, d){ return Math.nearlyFlat(t, b, c, d)/2;	}
+				},
+				"late":{
+					"from":85,
+					"to":999,
+					"func":function(){	return  0;	}
+				}
+			}
+		},
+		"4":{
+			"torque" : 90,
+			"ramps":{
+				"early":{
+					"from":20,
+					"to":70.1,
+					"func":function(t, b, c, d){ return (Math.easeOutQuint(t, b, c, d))/2;	}
+				},
+				"rampUp":{
+					"from":70,
+					"to":79.1,
+					"func":Math.easeOutQuint
+				},
+				"flat":{
+					"from":79,
+					"to":85.1,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":85,
+					"to":87,
+					"func":function(t, b, c, d){ return Math.max(1 - Math.easeInExpo(t, b, c, d), 0.015);	}
+				},
+				"late":{
+					"from":90,
+					"to":9999,
+					"func":function(){	return 0.01;	}
+				}
+			}
+		},
+		"5":{
+			"torque" : 80,
+			"ramps":{
+				"early":{
+					"from":40,
+					"to":50,
+					"func":function(t, b, c, d){ return (Math.easeOutQuint(t, b, c, d))/2;	}
+				},
+				"rampUp":{
+					"from":59.9,
+					"to":99,
+					"func":Math.easeOutQuint
+				},
+				"flat":{
+					"from":76.9,
+					"to":99,
+					"func":Math.nearlyFlat
+				},
+				"rampDown":{
+					"from":96,
+					"to":99,
+					"func":function(t, b, c, d){ return Math.max(1 - Math.easeInExpo(t, b, c, d), 0.015);	}
+				},
+				"late":{
+					"from":99,
+					"to":9999,
+					"func":function(){	return  0.01;	}
+				}
+			}
+		}
+	}
+}

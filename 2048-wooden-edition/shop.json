@@ -1,0 +1,141 @@
+{
+    "shop": {
+        "0": {
+            "type": "upgradable",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 4,
+            "0":{
+                "price":0,
+                "modifier":10,
+                "moneyType":"normal"
+            },
+            "1":{
+                "price":500,
+                "modifier":10,
+                "moneyType":"premium"
+            },
+            "2":{
+                "price":1000,
+                "modifier":10,
+                "moneyType":"normal"
+            },
+            "3":{
+                "price":1500,
+                "modifier":10,
+                "moneyType":"normal"
+            },
+            "4":{
+                "price":1000,
+                "modifier":11,
+                "moneyType":"premium"
+            }
+        },
+        "1": {
+            "type": "upgradable",
+            "name": "Shotgun",
+            "idName" : "shotgun",
+            "quantityMax" : 3,
+            "0":{
+                "price":0,
+                "modifier":10,
+                "moneyType":"normal"
+            },
+            "1":{
+                "price":500,
+                "modifier":10,
+                "moneyType":"normal"
+            },
+            "2":{
+                "price":1000,
+                "modifier":10,
+                "moneyType":"normal"
+            },
+            "3":{
+                "price":1500,
+                "modifier":10,
+                "moneyType":"normal"
+            },
+            "unlockConditions": {
+                "0": {
+                    "item": 0,
+                    "variable": "unlocked",
+                    "comparator": "==",
+                    "value": 1
+                }
+            }
+        },
+        "2": {
+            "type": "consumable",
+            "name": "Single Pistol Bullets",
+            "idName": "singlePistolBullets",
+            "quantityMax" : 8,
+            "price": 3000,
+            "moneyType":"normal",
+            "quantity": 2,
+            "unlocked":0,
+            "unlockConditions": {
+                "0": {
+                    "item": 0,
+                    "variable": "unlocked",
+                    "comparator": "==",
+                    "value": 1
+                }
+            }
+        },
+        "3": {
+            "type": "consumable",
+            "name": "Shotgun Bullets",
+            "idName": "shotgunBullets",
+            "quantityMax": 20,
+            "price": 20,
+            "moneyType":"normal",
+            "unlocked":0,
+            "unlockConditions": {
+                "0": {
+                    "item": 1,
+                    "variable": "unlocked",
+                    "comparator": "==",
+                    "value": 1
+                },
+                "1": {
+                    "item": 1,
+                    "variable": "quantity",
+                    "comparator": ">=",
+                    "value": 2
+                },
+                "2": {
+                    "item": 2,
+                    "variable": "quantity",
+                    "comparator": ">=",
+                    "value": 7
+                }
+            }
+        },
+        "4": {
+            "type": "consumable",
+            "name": "toto",
+            "idName": "toto",
+            "quantityMax" : 8,
+            "price": 60,
+            "moneyType":"normal",
+            "quantity": 2,
+            "unlocked":0,
+            "unlockConditions": {
+                "0": {
+                    "item": 1,
+                    "variable": "unlocked",
+                    "comparator": "==",
+                    "value": 1
+                },
+                "1": {
+                    "item": 1,
+                    "variable": "quantity",
+                    "comparator": ">=",
+                    "value": 1
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,429 @@
+{
+
+	"shop": {
+		"0": {
+			"type": "upgradable",
+			"name": "Theme 0",
+			"idName": "theme0",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 0
+		},
+		"1": {
+			"type": "upgradable",
+			"name": "Theme 1",
+			"idName": "theme1",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"2": {
+			"type": "upgradable",
+			"name": "Theme 2",
+			"idName": "theme2",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"3": {
+			"type": "upgradable",
+			"name": "Theme 3",
+			"idName": "theme3",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"4": {
+			"type": "upgradable",
+			"name": "Theme 4",
+			"idName": "theme4",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"5": {
+			"type": "upgradable",
+			"name": "Theme 5",
+			"idName": "theme5",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"6": {
+			"type": "upgradable",
+			"name": "Theme 6",
+			"idName": "theme6",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"7": {
+			"type": "upgradable",
+			"name": "Theme 7",
+			"idName": "theme7",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"101": {
+			"type": "upgradable",
+			"name": "pack_1",
+			"idName": "pack_1",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 0,
+			"starsCollected": 0,
+			"starPrice": 0
+		},
+		"102": {
+			"type": "upgradable",
+			"name": "pack_2",
+			"idName": "pack_2",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 0,
+			"starsCollected": 0,
+			"starPrice": 0
+		},
+		"103": {
+			"type": "upgradable",
+			"name": "pack_3",
+			"idName": "pack_3",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 290
+		},
+		"104": {
+			"type": "upgradable",
+			"name": "pack_4",
+			"idName": "pack_4",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 580
+		},
+		"105": {
+			"type": "upgradable",
+			"name": "pack_5",
+			"idName": "pack_5",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 870
+		},
+		"106": {
+			"type": "upgradable",
+			"name": "pack_6",
+			"idName": "pack_6",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 1160
+		},
+		"107": {
+			"type": "upgradable",
+			"name": "pack_7",
+			"idName": "pack_7",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 1450
+		},
+		"108": {
+			"type": "upgradable",
+			"name": "pack_8",
+			"idName": "pack_8",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 1740
+		},
+		"109": {
+			"type": "upgradable",
+			"name": "pack_9",
+			"idName": "pack_9",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 2030
+		},
+		"110": {
+			"type": "upgradable",
+			"name": "pack_10",
+			"idName": "pack_10",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 2320
+		},
+		"111": {
+			"type": "upgradable",
+			"name": "pack_11",
+			"idName": "pack_11",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 2610
+		},
+		"112": {
+			"type": "upgradable",
+			"name": "pack_12",
+			"idName": "pack_12",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 2900
+		},
+		"113": {
+			"type": "upgradable",
+			"name": "pack_13",
+			"idName": "pack_13",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 3190
+		},
+		"114": {
+			"type": "upgradable",
+			"name": "pack_14",
+			"idName": "pack_14",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 3480
+		},
+		"115": {
+			"type": "upgradable",
+			"name": "pack_15",
+			"idName": "pack_15",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 3770
+		},
+		"116": {
+			"type": "upgradable",
+			"name": "pack_16",
+			"idName": "pack_16",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 4060
+		},
+		"117": {
+			"type": "upgradable",
+			"name": "pack_17",
+			"idName": "pack_17",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 4350
+		},
+		"118": {
+			"type": "upgradable",
+			"name": "pack_18",
+			"idName": "pack_18",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 4640
+		},
+		"119": {
+			"type": "upgradable",
+			"name": "pack_19",
+			"idName": "pack_19",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 4930
+		},
+		"120": {
+			"type": "upgradable",
+			"name": "pack_20",
+			"idName": "pack_20",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 5220
+		},
+		"121": {
+			"type": "upgradable",
+			"name": "pack_21",
+			"idName": "pack_21",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 5510
+		},
+		"122": {
+			"type": "upgradable",
+			"name": "pack_22",
+			"idName": "pack_22",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 5800
+		},
+		"123": {
+			"type": "upgradable",
+			"name": "pack_23",
+			"idName": "pack_23",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 6090
+		},
+		"124": {
+			"type": "upgradable",
+			"name": "pack_24",
+			"idName": "pack_24",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 6380
+		},
+		"125": {
+			"type": "upgradable",
+			"name": "pack_25",
+			"idName": "pack_25",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 6670
+		},
+		"126": {
+			"type": "upgradable",
+			"name": "pack_26",
+			"idName": "pack_26",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 6960
+		},
+		"127": {
+			"type": "upgradable",
+			"name": "pack_27",
+			"idName": "pack_27",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 7250
+		},
+		"128": {
+			"type": "upgradable",
+			"name": "pack_28",
+			"idName": "pack_28",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 7540
+		},
+		"129": {
+			"type": "upgradable",
+			"name": "pack_29",
+			"idName": "pack_29",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 7830
+		},
+		"130": {
+			"type": "upgradable",
+			"name": "pack_30",
+			"idName": "pack_30",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 8120
+		},
+		"131": {
+			"type": "upgradable",
+			"name": "pack_31",
+			"idName": "pack_31",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 8410
+		},
+		"132": {
+			"type": "upgradable",
+			"name": "pack_32",
+			"idName": "pack_32",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 200,
+			"starsCollected": 0,
+			"starPrice": 8700
+		}
+	}
+}

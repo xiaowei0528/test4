@@ -1,0 +1,101 @@
+{
+    "shop": {
+        "0": {
+            "type": "upgradable",
+            "name": "ball_round",
+            "idName" : "ball_round",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 0
+        },
+        "1": {
+            "type": "upgradable",
+            "name": "ball_circle",
+            "idName" : "ball_circle",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 25
+        },  
+        "2": {
+            "type": "upgradable",
+            "name": "ball_target",
+            "idName" : "ball_target",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 50
+        },  
+        "3": {
+            "type": "upgradable",
+            "name": "ball_circularPin",
+            "idName" : "ball_circularPin",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 100
+        },  
+        "4": {
+            "type": "upgradable",
+            "name": "ball_spiky",
+            "idName" : "ball_spiky",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 150
+        },  
+        "5": {
+            "type": "upgradable",
+            "name": "ball_biohazard",
+            "idName" : "ball_biohazard",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 300
+        },  
+        "6": {
+            "type": "upgradable",
+            "name": "ball_hexagon",
+            "idName" : "ball_hexagon",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 450
+        },  
+        "7": {
+            "type": "upgradable",
+            "name": "ball_flower",
+            "idName" : "ball_flower",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 550
+        },  
+        "8": {
+            "type": "upgradable",
+            "name": "ball_nuclear",
+            "idName" : "ball_nuclear",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 750
+        },  
+        "9": {
+            "type": "upgradable",
+            "name": "ball_gear",
+            "idName" : "ball_gear",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 900
+        },  
+        "10": {
+            "type": "upgradable",
+            "name": "ball_hatch",
+            "idName" : "ball_hatch",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 1000
+        },  
+        "11": {
+            "type": "upgradable",
+            "name": "ball_blade",
+            "idName" : "ball_blade",
+            "quantity":0,
+            "quantityMax": 1,
+			"price" : 1150
+        }  		
+
+    }
+}

@@ -1,0 +1,1540 @@
+{
+	"shop": {
+		"lvl": {
+			"type": "upgradable",
+			"quantity":1,
+			"quantityMax": 999
+		},
+		"showNew": {
+			"type": "upgradable",
+			"quantity":0,
+			"quantityMax": 1
+		},
+		"metric": {
+			"type": "upgradable",
+			"quantity":1,
+			"quantityMax": 2
+		},
+		"carSelected": {
+			"quantity":0,
+			"quantityMax": 61
+		},
+		"tuto": {
+			"type": "upgradable",
+			"quantity":1,
+			"quantityMax": 999
+		},
+		"engine": {
+			"type": "upgradable",
+			"name": "engine",
+			"idName" : "Engine",
+			"quantity":0,
+			"quantityMax": 5,
+			"0":{
+				"max_speed":0
+			},
+			"1":{
+				"price":1200,
+				"priceBase":1200,
+				"moneyType":"normal",
+				"max_speed":1
+			},
+			"2":{
+				"price":1500,
+				"priceBase":1500,
+				"moneyType":"normal",
+				"max_speed":3
+			},
+			"3":{
+				"price":1800,
+				"priceBase":1800,
+				"moneyType":"normal",
+				"max_speed":5
+			},
+			"4":{
+				"price":2000,
+				"priceBase":2000,
+				"moneyType":"normal",
+				"max_speed":6
+			},
+			"5":{
+				"price":2500,
+				"priceBase":2500,
+				"moneyType":"normal",
+				"max_speed":7
+			}
+		},
+		"turbo": {
+			"type": "upgradable",
+			"name": "turbo",
+			"idName" : "Turbo",
+			"quantity":0,
+			"quantityMax": 5,
+			"0":{
+				"acceleration":0
+			},
+			"1":{
+				"price":2500,
+				"priceBase":2500,
+				"moneyType":"normal",
+				"acceleration":4
+			},
+			"2":{
+				"price":1400,
+				"priceBase":1400,
+				"moneyType":"normal",
+				"acceleration":7
+			},
+			"3":{
+				"price":1600,
+				"priceBase":1600,
+				"moneyType":"normal",
+				"acceleration":9
+			},
+			"4":{
+				"price":1700,
+				"priceBase":1700,
+				"moneyType":"normal",
+				"acceleration":12
+			},
+			"5":{
+				"price":1800,
+				"priceBase":1800,
+				"moneyType":"normal",
+				"acceleration":15
+			}
+		},
+		"exhaust": {
+			"type": "upgradable",
+			"name": "exhaust",
+			"idName" : "Exhaust",
+			"quantity":0,
+			"quantityMax": 5,
+			"0":{
+				"max_speed":0
+			},
+			"1":{
+				"price":200,
+				"priceBase":200,
+				"moneyType":"normal",
+				"max_speed":1
+			},
+			"2":{
+				"price":300,
+				"priceBase":300,
+				"moneyType":"normal",
+				"max_speed":2
+			},
+			"3":{
+				"price":500,
+				"priceBase":500,
+				"moneyType":"normal",
+				"max_speed":3
+			},
+			"4":{
+				"price":600,
+				"priceBase":600,
+				"moneyType":"normal",
+				"max_speed":4
+			},
+			"5":{
+				"price":800,
+				"priceBase":800,
+				"moneyType":"normal",
+				"max_speed":5
+			}
+		},
+		"nitro": {
+			"type": "upgradable",
+			"name": "nitro",
+			"idName" : "Nitro",
+			"quantity":0,
+			"quantityMax": 5,
+			"0":{
+				"kitNOSDuration":0,
+				"kitNOSPower":0
+			},
+			"1":{
+				"price":1000,
+				"priceBase":1000,
+				"moneyType":"normal",
+				"kitNOSDuration":1000,
+				"kitNOSPower":25
+			},
+			"2":{
+				"price":1200,
+				"priceBase":1200,
+				"moneyType":"normal",
+				"kitNOSDuration":1000,
+				"kitNOSPower":35
+			},
+			"3":{
+				"price":1400,
+				"priceBase":1400,
+				"moneyType":"normal",
+				"kitNOSDuration":1000,
+				"kitNOSPower":50
+			},
+			"4":{
+				"price":1600,
+				"priceBase":1600,
+				"moneyType":"normal",
+				"kitNOSDuration":2000,
+				"kitNOSPower":35
+			},
+			"5":{
+				"price":1800,
+				"priceBase":1800,
+				"moneyType":"normal",
+				"kitNOSDuration":2000,
+				"kitNOSPower":50
+			}
+		},
+		"weight": {
+			"type": "upgradable",
+			"name": "weight",
+			"idName" : "weight",
+			"quantity":0,
+			"quantityMax": 5,
+			"0":{
+				"grip":0,
+				"weight_ratio":0
+			},
+			"1":{
+				"price":200,
+				"priceBase":200,
+				"moneyType":"normal",
+				"grip":-2,
+				"weight_ratio":-5
+			},
+			"2":{
+				"price":300,
+				"priceBase":300,
+				"moneyType":"normal",
+				"grip":-4,
+				"weight_ratio":-8
+			},
+			"3":{
+				"price":400,
+				"priceBase":400,
+				"moneyType":"normal",
+				"grip":-5,
+				"weight_ratio":-10
+			},
+			"4":{
+				"price":500,
+				"priceBase":500,
+				"moneyType":"normal",
+				"grip":-7,
+				"weight_ratio":-13
+			},
+			"5":{
+				"price":600,
+				"priceBase":600,
+				"moneyType":"normal",
+				"grip":-8,
+				"weight_ratio":-15
+			}
+		},
+		"wheels": {
+			"type": "upgradable",
+			"name": "wheel",
+			"idName" : "Wheel",
+			"quantity":0,
+			"quantityMax": 5,
+			"0":{
+				"grip":0
+			},
+			"1":{
+				"price":700,
+				"priceBase":700,
+				"moneyType":"normal",
+				"grip":6
+			},
+			"2":{
+				"price":1000,
+				"priceBase":1000,
+				"moneyType":"normal",
+				"grip":9
+			},
+			"3":{
+				"price":1100,
+				"priceBase":1100,
+				"moneyType":"normal",
+				"grip":12
+			},
+			"4":{
+				"price":1200,
+				"priceBase":1200,
+				"moneyType":"normal",
+				"grip":16
+			},
+			"5":{
+				"price":1400,
+				"priceBase":1400,
+				"moneyType":"normal",
+				"grip":20
+			}
+		},
+		"0": {
+			"type": "upgradable",
+			"name": "Car0",
+			"idName" : "Car0",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 0.6,
+			"unlocked":0,
+			"1":{
+				"price":5000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 0
+				}
+			}
+		},
+		"1": {
+			"type": "upgradable",
+			"name": "Car1",
+			"idName" : "Car1",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 0.6,
+			"unlocked":0,
+			"1":{
+				"price":6000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 0
+				}
+			}
+		},
+		"2": {
+			"type": "upgradable",
+			"name": "Car2",
+			"idName" : "Car2",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 0.6,
+			"unlocked":0,
+			"1":{
+				"price":6500,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 0
+				}
+			}
+		},
+		"3": {
+			"type": "upgradable",
+			"name": "Car3",
+			"idName" : "Car3",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 0.6,
+			"unlocked":0,
+			"1":{
+				"price":7000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 0
+				}
+			}
+		},
+		"4": {
+			"type": "upgradable",
+			"name": "Car4",
+			"idName" : "Car4",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 0.9,
+			"unlocked":0,
+			"1":{
+				"price":9000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 6
+				}
+			}
+		},
+		"5": {
+			"type": "upgradable",
+			"name": "Car5",
+			"idName" : "Car5",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 1,
+			"unlocked":0,
+			"1":{
+				"price":10000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 12
+				}
+			}
+		},
+		"6": {
+			"type": "upgradable",
+			"name": "Car6",
+			"idName" : "Car6",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 1,
+			"unlocked":0,
+			"1":{
+				"price":12000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 12
+				}
+			}
+		},
+		"7": {
+			"type": "upgradable",
+			"name": "Car7",
+			"idName" : "Car7",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 1,
+			"unlocked":0,
+			"1":{
+				"price":13000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 12
+				}
+			}
+		},
+		"8": {
+			"type": "upgradable",
+			"name": "Car8",
+			"idName" : "Car8",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 1,
+			"unlocked":0,
+			"1":{
+				"price":14000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 12
+				}
+			}
+		},
+		"9": {
+			"type": "upgradable",
+			"name": "Car9",
+			"idName" : "Car9",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 1.5,
+			"unlocked":0,
+			"1":{
+				"price":20000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 12
+				}
+			}
+		},
+		"10": {
+			"type": "upgradable",
+			"name": "Car10",
+			"idName" : "Car10",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 3,
+			"unlocked":0,
+			"1":{
+				"price":40000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 18
+				}
+			}
+		},
+		"11": {
+			"type": "upgradable",
+			"name": "Car11",
+			"idName" : "Car11",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 3.8,
+			"unlocked":0,
+			"1":{
+				"price":45000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 18
+				}
+			}
+		},
+		"12": {
+			"type": "upgradable",
+			"name": "Car12",
+			"idName" : "Car12",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 4.5,
+			"unlocked":0,
+			"1":{
+				"price":49000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 18
+				}
+			}
+		},
+		"13": {
+			"type": "upgradable",
+			"name": "Car13",
+			"idName" : "Car13",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 5,
+			"unlocked":0,
+			"1":{
+				"price":55000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 18
+				}
+			}
+		},
+		"14": {
+			"type": "upgradable",
+			"name": "Car14",
+			"idName" : "Car14",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 5.5,
+			"unlocked":0,
+			"1":{
+				"price":60000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 18
+				}
+			}
+		},
+		"15": {
+			"type": "upgradable",
+			"name": "Car15",
+			"idName" : "Car15",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 8,
+			"unlocked":0,
+			"1":{
+				"price":90000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 24
+				}
+			}
+		},
+		"16": {
+			"type": "upgradable",
+			"name": "Car16",
+			"idName" : "Car16",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 9,
+			"unlocked":0,
+			"1":{
+				"price":100000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 24
+				}
+			}
+		},
+		"17": {
+			"type": "upgradable",
+			"name": "Car17",
+			"idName" : "Car17",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 10,
+			"unlocked":0,
+			"1":{
+				"price":115000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 24
+				}
+			}
+		},
+		"18": {
+			"type": "upgradable",
+			"name": "Car18",
+			"idName" : "Car18",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 11,
+			"unlocked":0,
+			"1":{
+				"price":130000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 24
+				}
+			}
+		},
+		"19": {
+			"type": "upgradable",
+			"name": "Car19",
+			"idName" : "Car19",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 13,
+			"unlocked":0,
+			"1":{
+				"price":150000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 24
+				}
+			}
+		},
+		"20": {
+			"type": "upgradable",
+			"name": "Car20",
+			"idName" : "Car20",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 15,
+			"unlocked":0,
+			"1":{
+				"price":170000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 30
+				}
+			}
+		},
+		"21": {
+			"type": "upgradable",
+			"name": "Car21",
+			"idName" : "Car21",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 16,
+			"unlocked":0,
+			"1":{
+				"price":180000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 30
+				}
+			}
+		},
+		"22": {
+			"type": "upgradable",
+			"name": "Car22",
+			"idName" : "Car22",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 17.5,
+			"unlocked":0,
+			"1":{
+				"price":195000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 30
+				}
+			}
+		},
+		"23": {
+			"type": "upgradable",
+			"name": "Car23",
+			"idName" : "Car23",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 19,
+			"unlocked":0,
+			"1":{
+				"price":210000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 30
+				}
+			}
+		},
+		"24": {
+			"type": "upgradable",
+			"name": "Car24",
+			"idName" : "Car24",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 20,
+			"unlocked":0,
+			"1":{
+				"price":230000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 30
+				}
+			}
+		},
+		"25": {
+			"type": "upgradable",
+			"name": "Car25",
+			"idName" : "Car25",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 26,
+			"unlocked":0,
+			"1":{
+				"price":290000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 36
+				}
+			}
+		},
+		"26": {
+			"type": "upgradable",
+			"name": "Car26",
+			"idName" : "Car26",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 27,
+			"unlocked":0,
+			"1":{
+				"price":300000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 36
+				}
+			}
+		},
+		"27": {
+			"type": "upgradable",
+			"name": "Car27",
+			"idName" : "Car27",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 28,
+			"unlocked":0,
+			"1":{
+				"price":310000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 36
+				}
+			}
+		},
+		"28": {
+			"type": "upgradable",
+			"name": "Car28",
+			"idName" : "Car28",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 29,
+			"unlocked":0,
+			"1":{
+				"price":325000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 36
+				}
+			}
+		},
+		"29": {
+			"type": "upgradable",
+			"name": "Car29",
+			"idName" : "Car29",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 30,
+			"unlocked":0,
+			"1":{
+				"price":340000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 36
+				}
+			}
+		},
+		"30": {
+			"type": "upgradable",
+			"name": "Car30",
+			"idName" : "Car30",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 34,
+			"unlocked":0,
+			"1":{
+				"price":360000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 42
+				}
+			}
+		},
+		"31": {
+			"type": "upgradable",
+			"name": "Car31",
+			"idName" : "Car31",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 35,
+			"unlocked":0,
+			"1":{
+				"price":380000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 42
+				}
+			}
+		},
+		"32": {
+			"type": "upgradable",
+			"name": "Car32",
+			"idName" : "Car32",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 36,
+			"unlocked":0,
+			"1":{
+				"price":400000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 42
+				}
+			}
+		},
+		"33": {
+			"type": "upgradable",
+			"name": "Car33",
+			"idName" : "Car33",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 38,
+			"unlocked":0,
+			"1":{
+				"price":430000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 42
+				}
+			}
+		},
+		"34": {
+			"type": "upgradable",
+			"name": "Car34",
+			"idName" : "Car34",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 40,
+			"unlocked":0,
+			"1":{
+				"price":450000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 42
+				}
+			}
+		},
+		"35": {
+			"type": "upgradable",
+			"name": "Car35",
+			"idName" : "Car35",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 44,
+			"unlocked":0,
+			"1":{
+				"price":500000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 48
+				}
+			}
+		},
+		"36": {
+			"type": "upgradable",
+			"name": "Car36",
+			"idName" : "Car36",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 46,
+			"unlocked":0,
+			"1":{
+				"price":520000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 48
+				}
+			}
+		},
+		"37": {
+			"type": "upgradable",
+			"name": "Car37",
+			"idName" : "Car37",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 48,
+			"unlocked":0,
+			"1":{
+				"price":540000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 48
+				}
+			}
+		},
+		"38": {
+			"type": "upgradable",
+			"name": "Car38",
+			"idName" : "Car38",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 50,
+			"unlocked":0,
+			"1":{
+				"price":560000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 48
+				}
+			}
+		},
+		"39": {
+			"type": "upgradable",
+			"name": "Car39",
+			"idName" : "Car39",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 53,
+			"unlocked":0,
+			"1":{
+				"price":600000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 48
+				}
+			}
+		},
+		"40": {
+			"type": "upgradable",
+			"name": "Car40",
+			"idName" : "Car40",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 58,
+			"unlocked":0,
+			"1":{
+				"price":650000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 54
+				}
+			}
+		},
+		"41": {
+			"type": "upgradable",
+			"name": "Car41",
+			"idName" : "Car41",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 60,
+			"unlocked":0,
+			"1":{
+				"price":680000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 54
+				}
+			}
+		},
+		"42": {
+			"type": "upgradable",
+			"name": "Car42",
+			"idName" : "Car42",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 61,
+			"unlocked":0,
+			"1":{
+				"price":690000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 54
+				}
+			}
+		},
+		"43": {
+			"type": "upgradable",
+			"name": "Car43",
+			"idName" : "Car43",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 62,
+			"unlocked":0,
+			"1":{
+				"price":700000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 54
+				}
+			}
+		},
+		"44": {
+			"type": "upgradable",
+			"name": "Car44",
+			"idName" : "Car44",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 63,
+			"unlocked":0,
+			"1":{
+				"price":720000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 54
+				}
+			}
+		},
+		"45": {
+			"type": "upgradable",
+			"name": "Car45",
+			"idName" : "Car45",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 70,
+			"unlocked":0,
+			"1":{
+				"price":800000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 60
+				}
+			}
+		},
+		"46": {
+			"type": "upgradable",
+			"name": "Car46",
+			"idName" : "Car46",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 73,
+			"unlocked":0,
+			"1":{
+				"price":830000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 60
+				}
+			}
+		},
+		"47": {
+			"type": "upgradable",
+			"name": "Car47",
+			"idName" : "Car47",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 75,
+			"unlocked":0,
+			"1":{
+				"price":850000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 60
+				}
+			}
+		},
+		"48": {
+			"type": "upgradable",
+			"name": "Car48",
+			"idName" : "Car48",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 77,
+			"unlocked":0,
+			"1":{
+				"price":880000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 60
+				}
+			}
+		},
+		"49": {
+			"type": "upgradable",
+			"name": "Car49",
+			"idName" : "Car49",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 77,
+			"unlocked":0,
+			"1":{
+				"price":890000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 60
+				}
+			}
+		},
+		"50": {
+			"type": "upgradable",
+			"name": "Car0",
+			"idName" : "Car0",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 83,
+			"unlocked":0,
+			"1":{
+				"price":940000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 66
+				}
+			}
+		},
+		"51": {
+			"type": "upgradable",
+			"name": "Car1",
+			"idName" : "Car1",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 85,
+			"unlocked":0,
+			"1":{
+				"price":960000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 66
+				}
+			}
+		},
+		"52": {
+			"type": "upgradable",
+			"name": "Car2",
+			"idName" : "Car2",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 88,
+			"unlocked":0,
+			"1":{
+				"price":980000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 66
+				}
+			}
+		},
+		"53": {
+			"type": "upgradable",
+			"name": "Car3",
+			"idName" : "Car3",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 89,
+			"unlocked":0,
+			"1":{
+				"price":990000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 66
+				}
+			}
+		},
+		"54": {
+			"type": "upgradable",
+			"name": "Car4",
+			"idName" : "Car4",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 98,
+			"unlocked":0,
+			"1":{
+				"price":1100000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 66
+				}
+			}
+		},
+		"55": {
+			"type": "upgradable",
+			"name": "Car5",
+			"idName" : "Car5",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 140,
+			"unlocked":0,
+			"1":{
+				"price":1500000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 71
+				}
+			}
+		},
+		"56": {
+			"type": "upgradable",
+			"name": "Car6",
+			"idName" : "Car6",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 145,
+			"unlocked":0,
+			"1":{
+				"price":1600000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 71
+				}
+			}
+		},
+		"57": {
+			"type": "upgradable",
+			"name": "Car7",
+			"idName" : "Car7",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 150,
+			"unlocked":0,
+			"1":{
+				"price":1800000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 71
+				}
+			}
+		},
+		"58": {
+			"type": "upgradable",
+			"name": "Car8",
+			"idName" : "Car8",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 165,
+			"unlocked":0,
+			"1":{
+				"price":1900000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 71
+				}
+			}
+		},
+		"59": {
+			"type": "upgradable",
+			"name": "Car9",
+			"idName" : "Car9",
+			"quantity":0,
+			"quantityMax": 1,
+			"ratioPrice": 190,
+			"unlocked":0,
+			"1":{
+				"price":2200000,
+				"moneyType":"normal"
+			},
+			"unlockConditions": {
+				"0": {
+					"item": "lvl",
+					"variable": "quantity",
+					"comparator": ">=",
+					"value": 72
+				}
+			}
+		}
+	}
+}

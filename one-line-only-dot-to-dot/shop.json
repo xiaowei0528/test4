@@ -1,0 +1,153 @@
+{
+	"shop": {
+		"package-0": {
+			"name": "Red",
+			"idName": "redPack",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 0,
+			"quantity": 1,
+			"star": 0
+		},
+		"package-1": {
+			"name": "Blue",
+			"idName": "bluePack",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"type": "consumable",
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0,
+			"star": 125
+		},
+		"package-2": {
+			"name": "Green",
+			"idName": "greenPack",
+			"quantityMax": 1,
+			"type": "consumable",
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0,
+			"star": 250
+		},
+		"package-3": {
+			"name": "Yellow",
+			"idName": "yellowPack",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0,
+			"star": 400
+		},
+		"package-4": {
+			"name": "Orange",
+			"idName": "orangePack",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0,
+			"star": 550
+		},
+		"package-5": {
+			"name": "Pink",
+			"idName": "pinkPack",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0,
+			"star": 700
+		},
+		"package-6": {
+			"name": "Purple",
+			"idName": "purplePack",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0,
+			"star": 850
+		},
+		"package-7": {
+			"name": "Brown",
+			"idName": "brownPack",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0,
+			"star": 1000
+		},
+		"bgThemes-1": {
+			"name": "bgThemes-1",
+			"idName": "bgThemes-1",
+			"type": "consumable",
+			"unlocked": 1,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 1
+		},
+		"bgThemes-2": {
+			"name": "bgThemes-2",
+			"idName": "bgThemes-2",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0
+		},
+		"bgThemes-3": {
+			"name": "bgThemes-3",
+			"idName": "bgThemes-3",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0
+		},
+		"bgThemes-4": {
+			"name": "bgThemes-4",
+			"idName": "bgThemes-4",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0
+		},
+		"bgThemes-5": {
+			"name": "bgThemes-5",
+			"idName": "bgThemes-5",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0
+		},
+		"bgThemes-6": {
+			"name": "bgThemes-6",
+			"idName": "bgThemes-6",
+			"type": "consumable",
+			"quantityMax": 1,
+			"unlocked": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"quantity": 0
+		}
+
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"shop": {
+		"0": {
+			"type": "upgradable",
+			"name": "group",
+			"idName" : "group",
+			"quantity":0,
+			"quantityMax": 1,
+			"1":{
+				"price":1000,
+				"moneyType":"normal"
+			}
+		},
+		"1": {
+			"type": "upgradable",
+			"name": "nature",
+			"idName" : "nature",
+			"quantity":0,
+			"quantityMax": 1,
+			"1":{
+				"price":1000,
+				"moneyType":"normal"
+			}
+		},
+		"2": {
+			"type": "upgradable",
+			"name": "playing",
+			"idName" : "playing",
+			"quantity":0,
+			"quantityMax": 1,
+			"1":{
+				"price":1000,
+				"moneyType":"normal"
+			}
+		},
+		"3": {
+			"type": "upgradable",
+			"name": "sleeping",
+			"idName" : "sleeping",
+			"quantity":0,
+			"quantityMax": 1,
+			"1":{
+				"price":1000,
+				"moneyType":"normal"
+			}
+		},
+		"4": {
+			"type": "upgradable",
+			"name": "so cute",
+			"idName" : "so cute",
+			"quantity":0,
+			"quantityMax": 1,
+			"1":{
+				"price":1000,
+				"moneyType":"normal"
+			}
+		},
+		"tips": {
+			"type": "consumable",
+			"name": "Tips",
+			"idName": "Tips",
+			"quantityMax" : 99999999999,
+			"price": 0,
+			"moneyType":"normal",
+			"quantity": 3,
+			"unlocked":1
+		}
+	}
+}

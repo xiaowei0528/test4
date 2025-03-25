@@ -1,0 +1,10 @@
+{
+	"gifts" : {
+		"0" : "diamonds_0",
+		"1" : "thunder_1",
+		"2" : "fireball_2",
+		"3" : "stopTimer_3",
+		"4" : "antiGroundBounce_4"
+		}
+	
+}

@@ -1,0 +1,209 @@
+{
+
+	"shop": {
+		"0": {
+			"type": "upgradable",
+			"name": "Theme 0",
+			"idName": "theme0",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 0
+		},
+		"1": {
+			"type": "upgradable",
+			"name": "Theme 1",
+			"idName": "theme1",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"2": {
+			"type": "upgradable",
+			"name": "Theme 2",
+			"idName": "theme2",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"3": {
+			"type": "upgradable",
+			"name": "Theme 3",
+			"idName": "theme3",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"4": {
+			"type": "upgradable",
+			"name": "Theme 4",
+			"idName": "theme4",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"5": {
+			"type": "upgradable",
+			"name": "Theme 5",
+			"idName": "theme5",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"6": {
+			"type": "upgradable",
+			"name": "Theme 6",
+			"idName": "theme6",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"7": {
+			"type": "upgradable",
+			"name": "Theme 7",
+			"idName": "theme7",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "normal",
+			"price": 250
+		},
+		"101": {
+			"type": "upgradable",
+			"name": "pack_1",
+			"idName": "pack_1",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"102": {
+			"type": "upgradable",
+			"name": "pack_2",
+			"idName": "pack_2",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"103": {
+			"type": "upgradable",
+			"name": "pack_3",
+			"idName": "pack_3",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"104": {
+			"type": "upgradable",
+			"name": "pack_4",
+			"idName": "pack_4",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"105": {
+			"type": "upgradable",
+			"name": "pack_5",
+			"idName": "pack_5",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"106": {
+			"type": "upgradable",
+			"name": "pack_6",
+			"idName": "pack_6",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"107": {
+			"type": "upgradable",
+			"name": "pack_7",
+			"idName": "pack_7",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"108": {
+			"type": "upgradable",
+			"name": "pack_8",
+			"idName": "pack_8",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"109": {
+			"type": "upgradable",
+			"name": "pack_9",
+			"idName": "pack_9",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"110": {
+			"type": "upgradable",
+			"name": "pack_10",
+			"idName": "pack_10",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"111": {
+			"type": "upgradable",
+			"name": "pack_11",
+			"idName": "pack_11",
+			"quantity": 1,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		},
+		"112": {
+			"type": "upgradable",
+			"name": "pack_12",
+			"idName": "pack_12",
+			"quantity": 0,
+			"quantityMax": 1,
+			"moneyType": "premium",
+			"price": 100,
+			"starsCollected": 0,
+			"starPrice": 1000000
+		}
+	}
+}

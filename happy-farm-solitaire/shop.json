@@ -1,0 +1,330 @@
+{
+    "shop": {
+        "style0": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Style0",
+            "idName" : "Style0",
+            "quantity":1,
+            "quantityMax": 1,
+            "unlocked":1
+        },
+        "style1": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Style1",
+            "idName" : "Style1",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "style2": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Style2",
+            "idName" : "Style2",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "style3": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Style3",
+            "idName" : "Style3",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "style4": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Style4",
+            "idName" : "Style4",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "style5": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Style5",
+            "idName" : "Style5",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck0": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck0",
+            "idName" : "Deck0",
+            "quantity":1,
+            "quantityMax": 1,
+            "unlocked":1
+        },
+        "deck1": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck1",
+            "idName" : "Deck1",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck2": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck2",
+            "idName" : "Deck2",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck3": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck3",
+            "idName" : "Deck3",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck4": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck4",
+            "idName" : "Deck4",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck5": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck5",
+            "idName" : "Deck5",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck6": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck6",
+            "idName" : "Deck6",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck7": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck7",
+            "idName" : "Deck7",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck8": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck8",
+            "idName" : "Deck8",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck9": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck9",
+            "idName" : "Deck9",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck10": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck10",
+            "idName" : "Deck10",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck11": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck11",
+            "idName" : "Deck11",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        }, 
+        "deck12": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name":  "Deck12",
+            "idName" : "Deck12",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck13": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name":  "Deck13",
+            "idName" : "Deck13",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck14": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name":  "Deck14",
+            "idName" : "Deck14",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+         "deck15": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Deck15",
+            "idName" : "Deck15",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg0": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG0",
+            "idName" : "BG0",
+            "quantity":1,
+            "quantityMax": 1,
+            "unlocked":1
+        },
+        "bg1": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG1",
+            "idName" : "BG1",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg2": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG2",
+            "idName" : "BG2",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg3": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG3",
+            "idName" : "BG3",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg4": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG4",
+            "idName" : "BG4",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg5": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG5",
+            "idName" : "BG5",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg6": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG6",
+            "idName" : "BG6",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg7": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG7",
+            "idName" : "BG7",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg8": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG8",
+            "idName" : "BG8",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg9": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG9",
+            "idName" : "BG9",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg10": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG10",
+            "idName" : "BG10",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg11": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "BG11",
+            "idName" : "BG11",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "tips": {
+            "type": "consumable",
+            "name": "Tips",
+            "idName": "Tips",
+            "quantityMax" : 99999999999,
+            "price": 0,
+            "moneyType":"normal",
+            "quantity": 3,
+            "unlocked":1
+        },
+        "stars": {
+            "type": "consumable",
+            "name": "Stars",
+            "idName": "Stars",
+            "quantityMax" : 99999999999,
+            "price": 0,
+            "moneyType":"normal",
+            "quantity": 0,
+            "unlocked":1
+        }
+    }
+}

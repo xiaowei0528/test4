@@ -1,0 +1,330 @@
+{
+    "shop": {
+        "style_0": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":1,
+            "quantityMax": 1,
+            "unlocked":1
+        },
+        "style_1": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "style_2": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "style_3": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "style_4": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "style_5": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_0": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":1,
+            "quantityMax": 1,
+            "unlocked":1
+        },
+        "deck_1": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_2": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_3": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_4": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_5": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_6": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_7": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_8": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_9": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_10": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_11": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        }, 
+        "deck_12": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_13": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "deck_14": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+         "deck_15": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_0": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":1,
+            "quantityMax": 1,
+            "unlocked":1
+        },
+        "bg_1": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_2": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_3": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_4": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_5": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_6": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_7": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_8": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_9": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_10": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "bg_11": {
+            "type": "consumable",
+            "moneyType":"normal",
+            "name": "Single Pistol",
+            "idName" : "singlePistol",
+            "quantity":0,
+            "quantityMax": 1,
+            "unlocked":0
+        },
+        "tips": {
+            "type": "consumable",
+            "name": "Tips",
+            "idName": "Tips",
+            "quantityMax" : 99999999999,
+            "price": 0,
+            "moneyType":"normal",
+            "quantity": 3,
+            "unlocked":1
+        },
+         "stars": {
+            "type": "consumable",
+            "name": "Tips",
+            "idName": "Tips",
+            "quantityMax" : 99999999999,
+            "price": 0,
+            "moneyType":"normal",
+            "quantity": 0,
+            "unlocked":1
+        }
+    }
+}
