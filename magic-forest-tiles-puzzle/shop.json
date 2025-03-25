@@ -1,0 +1,14 @@
+{
+	"shop": {
+		"tips": {
+			"type": "consumable",
+			"name": "Tips",
+			"idName": "Tips",
+			"quantityMax" : 99999999999,
+			"price": 0,
+			"moneyType":"normal",
+			"quantity": 2,
+			"unlocked":1
+		}
+	}
+}

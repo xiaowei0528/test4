@@ -1,0 +1,24 @@
+{
+	"max_lifes_stack":{
+		"de": "Maximale Anzahl an Leben erreicht. Es ist Zeit zu spielen!",
+		"en": "Maximum number of lives reached. It is time to play !",
+		"es": "Número máximo de vidas alcanzado. ¡Es hora de jugar!",
+		"fr": "Vous avez fait le plein de vie. Il est temps de jouer !",
+		"it": "Numero massimo di vite raggiunte. È ora di giocare!",
+		"ko": "최대 생명수에 도달했습니다. 게임 할 때가되었습니다!",
+		"pt": "Número máximo de vidas atingidas. Chegou a hora de jogar!",
+		"tr": "Maksimum yaşam sayısına ulaşıldı. Oyun zamanı!",
+		"af": "Maksimum aantal lewens bereik. Dit is tyd om te speel!",
+		"ms": "Jumlah maksimum kehidupan yang dicapai. Ia adalah masa untuk bermain!",
+		"nl": "Maximum aantal levens bereikt. Het is tijd om te spelen!",
+		"ru": "Максимальное количество достигнутых жизней. Пора играть!",
+		"vn": "Đã đạt đến số lượng cuộc sống tối đa. Đã đến lúc chơi!",
+		"zh": "达到的最大生命数量。 是时候玩了！",
+		"tw": "達到的最大生命數量。 是時候玩了！",
+		"ar": "أقصى عدد من الأرواح تم الوصول إليه. لقد حان الوقت للعب!",
+		"hi": "जीवन की अधिकतम संख्या तक पहुंच गई। यह खेलने का समय है!",
+		"id": "Jumlah maksimum kehidupan tercapai. Sudah waktunya untuk bermain!",
+		"ja": "人生の最大数に達しました。 それは遊ぶ時間です！",
+		"th": "จำนวนผู้ใช้งานสูงสุดถึง ถึงเวลาแล้วที่จะเล่น!"
+	}
+}

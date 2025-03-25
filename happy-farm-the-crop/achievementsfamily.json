@@ -1,0 +1,67 @@
+{
+	"first_game": {
+		"achievement_family": "first_game",
+		"achievement_animation": "first_game"
+	},
+	"unlock_pack_1": {
+		"achievement_family": "unlock_pack",
+		"achievement_animation": "unlock_1"
+	},
+	"unlock_pack_5": {
+		"achievement_family": "unlock_pack",
+		"achievement_animation": "unlock_5"
+	},
+	"unlock_pack_10": {
+		"achievement_family": "unlock_pack",
+		"achievement_animation": "unlock_10"
+	},
+	"unlock_pack_20": {
+		"achievement_family": "unlock_pack",
+		"achievement_animation": "unlock_20"
+	},
+	"unlock_pack_35": {
+		"achievement_family": "unlock_pack",
+		"achievement_animation": "unlock_35"
+	},
+	"max_star_any_pack": {
+		"achievement_family": "max_star_any_pack",
+		"achievement_animation": "max_star_any_pack"
+	},
+	"change_theme": {
+		"achievement_family": "change_theme",
+		"achievement_animation": "change_theme"
+	},
+	"collect_star_50": {
+		"achievement_family": "collect_star",
+		"achievement_animation": "star_50"
+	},
+	"collect_star_100": {
+		"achievement_family": "collect_star",
+		"achievement_animation": "star_100"
+	},
+	"collect_star_200": {
+		"achievement_family": "collect_star",
+		"achievement_animation": "star_200"
+	},
+	"collect_star_500": {
+		"achievement_family": "collect_star",
+		"achievement_animation": "star_500"
+	},
+	"collect_star_1000": {
+		"achievement_family": "collect_star",
+		"achievement_animation": "star_1000"
+	},
+	"collect_star_2000": {
+		"achievement_family": "collect_star",
+		"achievement_animation": "star_2000"
+	},
+	"collect_star_5000": {
+		"achievement_family": "collect_star",
+		"achievement_animation": "star_5000"
+	},
+	"collect_star_10000": {
+		"achievement_family": "collect_star",
+		"achievement_animation": "star_10000"
+	}
+	
+}

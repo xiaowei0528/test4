@@ -1,0 +1,102 @@
+{
+	"play_5x5_5": {
+		"achievement_family": "play_5x5",
+		"achievement_animation": "play_5x5_5"
+	},
+	"play_5x5_25": {
+		"achievement_family": "play_5x5",
+		"achievement_animation": "play_5x5_25"
+	},
+	"play_5x5_50": {
+		"achievement_family": "play_5x5",
+		"achievement_animation": "play_5x5_50"
+	},
+	"play_5x5_100": {
+		"achievement_family": "play_5x5",
+		"achievement_animation": "play_5x5_100"
+	},
+	"play_4x4_5": {
+		"achievement_family": "play_4x4",
+		"achievement_animation": "play_4x4_5"
+	},
+	"play_4x4_25": {
+		"achievement_family": "play_4x4",
+		"achievement_animation": "play_4x4_25"
+	},
+	"play_4x4_50": {
+		"achievement_family": "play_4x4",
+		"achievement_animation": "play_4x4_50"
+	},
+	"play_4x4_100": {
+		"achievement_family": "play_4x4",
+		"achievement_animation": "play_4x4_100"
+	},
+	"merge_50": {
+		"achievement_family": "merge",
+		"achievement_animation": "merge_50"
+	},
+	"merge_100": {
+		"achievement_family": "merge",
+		"achievement_animation": "merge_100"
+	},
+	"merge_250": {
+		"achievement_family": "merge",
+		"achievement_animation": "merge_250"
+	},
+	"merge_500": {
+		"achievement_family": "merge",
+		"achievement_animation": "merge_500"
+	},
+	"merge_1000": {
+		"achievement_family": "merge",
+		"achievement_animation": "merge_1000"
+	},
+	"merge_5000": {
+		"achievement_family": "merge",
+		"achievement_animation": "merge_5000"
+	},
+	"merge_10000": {
+		"achievement_family": "merge",
+		"achievement_animation": "merge_10000"
+	},
+	"reach_16": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_16"
+	},
+	"reach_32": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_32"
+	},
+	"reach_64": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_64"
+	},
+	"reach_128": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_128"
+	},
+	"reach_256": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_256"
+	},
+	"reach_512": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_512"
+	},
+	"reach_1024": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_1024"
+	},
+	"reach_2048": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_2048"
+	},
+	"reach_4096": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_4096"
+	},
+	"reach_8192": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_8192"
+	}
+}

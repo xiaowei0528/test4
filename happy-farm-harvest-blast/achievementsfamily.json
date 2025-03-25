@@ -1,0 +1,91 @@
+{
+	"break_block_100": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_100"
+	},
+	"break_block_200": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_200"
+	},
+	"break_block_300": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_300"
+	},
+	"break_block_500": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_500"
+	},
+	"break_block_1000": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_1000"
+	},
+	"break_block_5000": {
+		"achievement_family": "break",
+		"achievement_animation": "break_block_5000"
+	},
+	"bounce_time": {
+		"achievement_family": "bounce_time",
+		"achievement_animation": "bounce_time"
+	},
+	"dump": {
+		"achievement_family": "dump",
+		"achievement_animation": "dump"
+	},
+	"catch_balls": {
+		"achievement_family": "catch_balls",
+		"achievement_animation": "catch_balls"
+	},
+	"black_hole": {
+		"achievement_family": "black_hole",
+		"achievement_animation": "black_hole"
+	},
+	"striver": {
+		"achievement_family": "striver",
+		"achievement_animation": "striver"
+	},
+	"unlocking_a_pack": {
+		"achievement_family": "unlock",
+		"achievement_animation": "unlocking_a_pack"
+	},
+	"pack_5": {
+		"achievement_family": "pack_5",
+		"achievement_animation": "pack_5"
+	},
+	"pack_10": {
+		"achievement_family": "pack_10",
+		"achievement_animation": "pack_10"
+	},
+	"pack_20": {
+		"achievement_family": "pack_20",
+		"achievement_animation": "pack_20"
+	},
+	"pack_30": {
+		"achievement_family": "pack_30",
+		"achievement_animation": "pack_30"
+	},
+	"reach_score_10000": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_score_10000"
+	},
+	"reach_score_20000": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_score_20000"
+	},
+	"reach_score_30000": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_score_30000"
+	},
+	"oneshot_block_10": {
+		"achievement_family": "oneshot",
+		"achievement_animation": "oneshot_block_10"
+	},
+	"oneshot_block_20": {
+		"achievement_family": "oneshot",
+		"achievement_animation": "oneshot_block_20"
+	},
+	"oneshot_block_30": {
+		"achievement_family": "oneshot",
+		"achievement_animation": "oneshot_block_30"
+	}
+	
+}

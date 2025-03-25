@@ -1,0 +1,336 @@
+{
+    "shop": {
+        "package-1": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "type": "consumable",
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 1,
+            "star":0
+            }, 
+        "package-2": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "quantityMax" : 1,
+            "type": "consumable",
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-3": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-4": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-5": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-6": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-7": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-8": {
+          "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-9": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-10": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-11": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-12": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+
+        "package-13": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-14": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-15": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-16": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-17": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-18": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-19": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-20": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-21": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-22": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+
+        "package-23": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-24": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-25": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-26": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-27": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-28": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-29": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            },
+        "package-30": {
+            "name": "Red Pack",
+            "idName": "redPack",
+            "type": "consumable",
+            "quantityMax" : 1,
+            "unlocked":1,
+            "moneyType":"premium",
+            "price": 100,
+            "quantity": 0,
+            "star":0
+            }
+    }
+}

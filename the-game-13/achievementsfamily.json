@@ -1,0 +1,99 @@
+{
+	"play_easy": {
+		"achievement_family": "play",
+		"achievement_animation": "play_easy"
+	},
+	"play_medium": {
+		"achievement_family": "play",
+		"achievement_animation": "play_medium"
+	},
+	"play_hard": {
+		"achievement_family": "play",
+		"achievement_animation": "play_hard"
+	},
+	"play_vhard": {
+		"achievement_family": "play",
+		"achievement_animation": "play_vhard"
+	},
+	"reach_13": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_13"
+	},
+	"reach_20": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_20"
+	},
+	"reach_50": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_50"
+	},
+	"reach_100": {
+		"achievement_family": "reach",
+		"achievement_animation": "reach_100"
+	},
+	"play_easy_10": {
+		"achievement_family": "play_easy",
+		"achievement_animation": "play_easy_10"
+	},
+	"play_easy_50": {
+		"achievement_family": "play_easy",
+		"achievement_animation": "play_easy_50"
+	},
+	"play_easy_100": {
+		"achievement_family": "play_easy",
+		"achievement_animation": "play_easy_100"
+	},
+	"play_medium_10": {
+		"achievement_family": "play_medium",
+		"achievement_animation": "play_medium_10"
+	},
+	"play_medium_50": {
+		"achievement_family": "play_medium",
+		"achievement_animation": "play_medium_50"
+	},
+	"play_medium_100": {
+		"achievement_family": "play_medium",
+		"achievement_animation": "play_medium_100"
+	},
+	"play_hard_10": {
+		"achievement_family": "play_hard",
+		"achievement_animation": "play_hard_10"
+	},
+	"play_hard_50": {
+		"achievement_family": "play_hard",
+		"achievement_animation": "play_hard_50"
+	},
+	"play_hard_100": {
+		"achievement_family": "play_hard",
+		"achievement_animation": "play_hard_100"
+	},
+	"play_vhard_10": {
+		"achievement_family": "play_vhard",
+		"achievement_animation": "play_vhard_10"
+	},
+	"play_vhard_50": {
+		"achievement_family": "play_vhard",
+		"achievement_animation": "play_vhard_50"
+	},
+	"play_vhard_100": {
+		"achievement_family": "play_vhard",
+		"achievement_animation": "play_vhard_100"
+	},
+	"reach_moves_200": {
+		"achievement_family": "reach_moves",
+		"achievement_animation": "reach_moves_200"
+	},
+	"reach_moves_500": {
+		"achievement_family": "reach_moves",
+		"achievement_animation": "reach_moves_500"
+	},
+	"reach_moves_1000": {
+		"achievement_family": "reach_moves",
+		"achievement_animation": "reach_moves_1000"
+	},
+	"reach_moves_3000": {
+		"achievement_family": "reach_moves",
+		"achievement_animation": "reach_moves_3000"
+	}
+	
+}

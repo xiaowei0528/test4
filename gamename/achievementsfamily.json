@@ -1,0 +1,210 @@
+{
+	"first_daily_challenge": {
+		"achievement_family": "first_daily_challenge",
+		"achievement_animation": "first_daily_challenge"
+	},
+	"first_game_won": {
+		"achievement_family": "first_game_won",
+		"achievement_animation": "first_game_won"
+	},
+	"victories_streak_3": {
+		"achievement_family": "victories_streak",
+		"achievement_animation": "victories_streak_3"
+	},
+	"victories_streak_5": {
+		"achievement_family": "victories_streak",
+		"achievement_animation": "victories_streak_5"
+	},
+	"victories_streak_10": {
+		"achievement_family": "victories_streak",
+		"achievement_animation": "victories_streak_10"
+	},
+	"victories_streak_50": {
+		"achievement_family": "victories_streak",
+		"achievement_animation": "victories_streak_50"
+	},
+	"victories_streak_100": {
+		"achievement_family": "victories_streak",
+		"achievement_animation": "victories_streak_100"
+	},
+	"easy_3_done": {
+		"achievement_family": "easy_done",
+		"achievement_animation": "mode_3"
+	},
+	"easy_5_done": {
+		"achievement_family": "easy_done",
+		"achievement_animation": "mode_5"
+	},
+	"easy_10_done": {
+		"achievement_family": "easy_done",
+		"achievement_animation": "mode_10"
+	},
+	"easy_50_done": {
+		"achievement_family": "easy_done",
+		"achievement_animation": "mode_50"
+	},
+	"easy_100_done": {
+		"achievement_family": "easy_done",
+		"achievement_animation": "mode_100"
+	},
+	"medium_3_done": {
+		"achievement_family": "medium_done",
+		"achievement_animation": "mode_3"
+	},
+	"medium_5_done": {
+		"achievement_family": "medium_done",
+		"achievement_animation": "mode_5"
+	},
+	"medium_10_done": {
+		"achievement_family": "medium_done",
+		"achievement_animation": "mode_10"
+	},
+	"medium_50_done": {
+		"achievement_family": "medium_done",
+		"achievement_animation": "mode_50"
+	},
+	"medium_100_done": {
+		"achievement_family": "medium_done",
+		"achievement_animation": "mode_100"
+	},
+	"hard_3_done": {
+		"achievement_family": "hard_done",
+		"achievement_animation": "mode_3"
+	},
+	"hard_5_done": {
+		"achievement_family": "hard_done",
+		"achievement_animation": "mode_5"
+	},
+	"hard_10_done": {
+		"achievement_family": "hard_done",
+		"achievement_animation": "mode_10"
+	},
+	"hard_50_done": {
+		"achievement_family": "hard_done",
+		"achievement_animation": "mode_50"
+	},
+	"hard_100_done": {
+		"achievement_family": "hard_done",
+		"achievement_animation": "mode_100"
+	},
+	"veryhard_3_done": {
+		"achievement_family": "veryhard_done",
+		"achievement_animation": "mode_3"
+	},
+	"veryhard_5_done": {
+		"achievement_family": "veryhard_done",
+		"achievement_animation": "mode_5"
+	},
+	"veryhard_10_done": {
+		"achievement_family": "veryhard_done",
+		"achievement_animation": "mode_10"
+	},
+	"veryhard_50_done": {
+		"achievement_family": "veryhard_done",
+		"achievement_animation": "mode_50"
+	},
+	"veryhard_100_done": {
+		"achievement_family": "veryhard_done",
+		"achievement_animation": "mode_100"
+	},
+	"insane_3_done": {
+		"achievement_family": "insane_done",
+		"achievement_animation": "mode_3"
+	},
+	"insane_5_done": {
+		"achievement_family": "insane_done",
+		"achievement_animation": "mode_5"
+	},
+	"insane_10_done": {
+		"achievement_family": "insane_done",
+		"achievement_animation": "mode_10"
+	},
+	"insane_50_done": {
+		"achievement_family": "insane_done",
+		"achievement_animation": "mode_50"
+	},
+	"insane_100_done": {
+		"achievement_family": "insane_done",
+		"achievement_animation": "mode_100"
+	},
+	"daily_challenge_3": {
+		"achievement_family": "daily_done",
+		"achievement_animation": "daily_challenge_3"
+	},
+	"daily_challenge_5": {
+		"achievement_family": "daily_done",
+		"achievement_animation": "daily_challenge_5"
+	},
+	"daily_challenge_10": {
+		"achievement_family": "daily_done",
+		"achievement_animation": "daily_challenge_10"
+	},
+	"daily_challenge_25": {
+		"achievement_family": "daily_done",
+		"achievement_animation": "daily_challenge_25"
+	},
+	"daily_challenge_50": {
+		"achievement_family": "daily_done",
+		"achievement_animation": "daily_challenge_50"
+	},
+	"grid_25_done": {
+		"achievement_family": "grid_done",
+		"achievement_animation": "grid_25_done"
+	},
+	"grid_50_done": {
+		"achievement_family": "grid_done",
+		"achievement_animation": "grid_50_done"
+	},
+	"grid_100_done": {
+		"achievement_family": "grid_done",
+		"achievement_animation": "grid_100_done"
+	},
+	"grid_200_done": {
+		"achievement_family": "grid_done",
+		"achievement_animation": "grid_200_done"
+	},
+	"grid_500_done": {
+		"achievement_family": "grid_done",
+		"achievement_animation": "grid_500_done"
+	},
+	"grid_5_perfect": {
+		"achievement_family": "grid_perfect",
+		"achievement_animation": "grid_perfect"
+	},
+	"grid_10_perfect": {
+		"achievement_family": "grid_perfect",
+		"achievement_animation": "grid_perfect"
+	},
+	"grid_25_perfect": {
+		"achievement_family": "grid_perfect",
+		"achievement_animation": "grid_perfect"
+	},
+	"grid_50_perfect": {
+		"achievement_family": "grid_perfect",
+		"achievement_animation": "grid_perfect"
+	},
+	"grid_100_perfect": {
+		"achievement_family": "grid_perfect",
+		"achievement_animation": "grid_perfect"
+	},
+	"fast_easy_3": {
+		"achievement_family": "fast_easy_3",
+		"achievement_animation": "fast"
+	},
+	"fast_medium_3": {
+		"achievement_family": "fast_medium_3",
+		"achievement_animation": "fast"
+	},
+	"fast_hard_3": {
+		"achievement_family": "fast_hard_3",
+		"achievement_animation": "fast"
+	},
+	"fast_veryhard_3": {
+		"achievement_family": "fast_veryhard_3",
+		"achievement_animation": "fast"
+	},
+	"fast_insane_3": {
+		"achievement_family": "fast_insane_3",
+		"achievement_animation": "fast"
+	}
+}

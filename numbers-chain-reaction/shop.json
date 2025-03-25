@@ -1,0 +1,50 @@
+{
+
+  "shop": {
+    "0": {
+      "type": "upgradable",
+      "name": "removeOne",
+      "idName": "removeOne",
+      "quantity": 1,
+      "quantityMax": 0,
+      "moneyType": "premium",
+      "price": 50
+    },
+    "1": {
+      "type": "upgradable",
+      "name": "addTwo",
+      "idName": "addTwo",
+      "quantity": 1,
+      "quantityMax": 0,
+      "moneyType": "premium",
+      "price": 50
+    },
+    "2": {
+      "type": "upgradable",
+      "name": "eliminateTile",
+      "idName": "eliminateTile",
+      "quantity": 1,
+      "quantityMax": 0,
+      "moneyType": "premium",
+      "price": 75
+    },
+    "3": {
+      "type": "upgradable",
+      "name": "recoverOneMove",
+      "idName": "recoverOneMove",
+      "quantity": 1,
+      "quantityMax": 0,
+      "moneyType": "premium",
+      "price": 75
+    },
+    "4": {
+      "type": "upgradable",
+      "name": "increaseMovesLimit",
+      "idName": "increaseMovesLimit",
+      "quantity": 1,
+      "quantityMax": 0,
+      "moneyType": "premium",
+      "price": 200
+    }
+  }
+}

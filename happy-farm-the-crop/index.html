@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Happy Farm : The crop</title>
+	<script>
+		if (!Date.now) { Date.now = function now() { return (new Date()).getTime(); }; }
+		var _debug = false
+			, hostCDNCommon = ""
+			, hostCDNDir = ""
+			, hostCDNImg = hostCDNDir + "images/"
+			, hostCDNMedia = hostCDNDir + "media/"
+			, currentLayout = null
+			, startsLoadingGameAt = 0, endsLoadingGameAt = 0, loadingTimeCap = 300000, trackUnfocused = false, shouldLoadTimeBeTracked = true;
+		function inIframe() {
+			try {
+				return window.self !== window.top;
+			} catch (e) {
+				return true;
+			}
+		}
+	</script>
+	<!-- Standardised web app manifest -->
+
+
+	<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link rel="apple-touch-icon" sizes="256x256" href="./icon-256.png" />
+	<meta name="HandheldFriendly" content="true" />
+
+	<!-- Chrome for Android web app tags -->
+	<meta name="mobile-web-app-capable" content="yes" />
+	<link rel="shortcut icon" sizes="256x256" href="./icon-256.png" />
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./icon-32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="./icon-16.png" />
+	<meta name="msapplication-TileColor" content="#2d89ef">
+	<meta name="theme-color" content="#000000">
+
+	<!-- All margins and padding must be zero for the canvas to fill the screen. -->
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			user-select: none;
+		}
+
+		html,
+		body {
+			background: #000;
+			background-color: #000;
+			color: #fff;
+			overflow: hidden;
+			touch-action: none;
+			-ms-touch-action: none;
+		}
+
+		canvas {
+			touch-action-delay: none;
+			touch-action: none;
+			-ms-touch-action: none;
+		}
+	</style>
+
+	<script>
+		var EVENT_TO_FIRE_VERSION = 4;
+		if (typeof window.eventToFire === "undefined" || typeof window.eventToFire.version === "undefined" || window.eventToFire.version < EVENT_TO_FIRE_VERSION) {
+			var eventToFire = window.eventToFire || {};
+			eventToFire.events = ((window.eventToFire && window.eventToFire.events) ? window.eventToFire.events : {});
+			eventToFire.version = EVENT_TO_FIRE_VERSION;
+			eventToFire.registerEvent = function (eventName, callback, staticArgs) {
+				if (typeof eventName !== 'string') return false;
+				if (typeof callback !== 'function' && typeof callback !== 'string') return false;
+				if (typeof this.events[eventName] === 'undefined') this.events[eventName] = [];
+				this.events[eventName].push({ "func": callback, "staticArgs": staticArgs });
+				return true;
+			};
+			if (typeof ce7 !== "function") {
+				var ce7_lut = [], ce7 = function () {
+					if (typeof window.crypto === "object" && typeof window.crypto.getRandomValues === "function") { var rnd = window.crypto.getRandomValues(new Uint32Array(4)), d0 = rnd[0], d1 = rnd[1], d2 = rnd[2], d3 = rnd[3] } else { var d0 = Math.random() * 0x100000000 >>> 0, d1 = Math.random() * 0x100000000 >>> 0, d2 = Math.random() * 0x100000000 >>> 0, d3 = Math.random() * 0x100000000 >>> 0; }
+					return ce7_lut[d0 & 0xff] + ce7_lut[d0 >> 8 & 0xff] + ce7_lut[d0 >> 16 & 0xff] + ce7_lut[d0 >> 24 & 0xff] + '-' +
+						ce7_lut[d1 & 0xff] + ce7_lut[d1 >> 8 & 0xff] + '-' + ce7_lut[d1 >> 16 & 0x0f | 0x40] + ce7_lut[d1 >> 24 & 0xff] + '-' +
+						ce7_lut[d2 & 0x3f | 0x80] + ce7_lut[d2 >> 8 & 0xff] + '-' + ce7_lut[d2 >> 16 & 0xff] + ce7_lut[d2 >> 24 & 0xff] +
+						ce7_lut[d3 & 0xff] + ce7_lut[d3 >> 8 & 0xff] + ce7_lut[d3 >> 16 & 0xff] + ce7_lut[d3 >> 24 & 0xff];
+				}; for (var i = 0; i < 256; i++) { ce7_lut[i] = (i < 16 ? '0' : '') + (i).toString(16); }
+			}
+			eventToFire.fireEvent = function (eventName) {
+				if (typeof eventName !== 'string') return false;
+				var eventHandlersToCall = Object.keys(this.events).filter(function (v) { var f = v.replace(/\./g, '\\\.'); if (f.indexOf('*') !== -1) f = f.split('*')[0] + ".*"; return (new RegExp('^' + f + "$").test(eventName)) }).sort(function (a, b) { return (b === eventName) ? 1 : (a === eventName) ? -1 : b.replace('*', '').length - a.replace('*', '').length; }), eventUID = ce7();
+				if (eventHandlersToCall.length === 0) return false;
+				for (var i = 0; i < eventHandlersToCall.length; i++) {
+					for (var f = 0; f < this.events[eventHandlersToCall[i]].length; f++) {
+						var func = this.events[eventHandlersToCall[i]][f]["func"];
+						if (typeof func === "string") if (typeof window[func] === "function") func = window[func]; else continue;
+						var args = [].slice.call(arguments, 1);
+						args.push(this.events[eventHandlersToCall[i]][f]["staticArgs"]);
+						func.apply({ eventName: eventName, eventUID: eventUID, eventHandler: eventHandlersToCall[i], eventToFire: this }, args);
+					}
+				}
+				return true;
+			};
+			eventToFire.getAllEvent = function () {
+				return this.events;
+			};
+
+			window.eventToFire = eventToFire;
+
+			//compatibility playzool/shell
+			window.registerEvent = function (eventName, callback, args) {
+				window.eventToFire.registerEvent(eventName, callback, args);
+			}
+			window.fireEvent = function (eventName, args) {
+				window.eventToFire.fireEvent(eventName, args);
+			}
+		}
+
+		function c2LayoutChange() {
+			if (arguments[0] === "in") currentLayout = arguments[1];
+			eventToFire.fireEvent.apply(eventToFire, ["c2LayoutChange"].concat([].slice.call(arguments)));
+		}
+		function gameOver() {
+			eventToFire.fireEvent.apply(eventToFire, ["gameOver"].concat([].slice.call(arguments)));
+		}
+
+		//localStorage delegation
+		try { localStorage.getItem("ls"); } catch (_e) { console.log("Saves are written on session only"); function customStorage() { var e = {}; return Object.defineProperty(e, "setItem", { get: function () { return function (t, n) { if (void 0 === n) throw new TypeError("Failed to execute 'setItem' on 'Storage': 2 arguments required, but only 1 present."); e[String(t)] = String(n) } } }), Object.defineProperty(e, "getItem", { get: function () { return function (t) { return e.hasOwnProperty(String(t)) ? e[String(t)] : null } } }), Object.defineProperty(e, "removeItem", { get: function () { return function (t) { e.hasOwnProperty(String(t)) && delete e[String(t)] } } }), Object.defineProperty(e, "clear", { get: function () { return function () { for (var t in e) delete e[String(t)] } } }), Object.defineProperty(e, "length", { get: function () { return Object.keys(e).length } }), Object.defineProperty(e, "key", { value: function (t) { var n = Object.keys(e)[String(t)]; return n || null } }), e } window.proxyStorageEngines = { localStorage: customStorage(), sessionStorage: customStorage() }; };
+		if (typeof loadGameInfo !== "function") {
+			window.loadGameInfo = function (force) {
+				if (typeof force !== "boolean") force = false;
+				if (!force && typeof lastGameInfoReq !== "undefined" && lastGameInfoReq > Date.now() - 1000) return true; //prevent multiple calls at once
+				try {
+					window.gameInfo = JSON.parse(c2_callFunction("getGameInfo", [], true));
+				} catch (e) {
+					window.gameInfo = {};
+					return false;
+				}
+				window.lastGameInfoReq = Date.now();
+				return true;
+			};
+		}
+
+	</script>
+
+	<!-- test analytics speed -->
+	<script>
+
+		(function () {
+
+			//----------------------loading---------------------------
+			var timeLoading_game = -1;
+			var timeLoading_fcp = -1;
+			var timeLoading_platform = -1;
+			var firstLayout = true;
+			var cancelLoadTime = false;
+			eventToFire.registerEvent("runtimeCreated", function () {
+				timeLoading_game = Date.now();
+				if (timeLoading_platform != -1) timeLoading_platform = Date.now() - timeLoading_platform;
+			});
+			eventToFire.registerEvent("deviceready", function () {
+				timeLoading_platform = Date.now();
+			});
+			eventToFire.registerEvent("c2LayoutChange", function (args) {
+				if (timeLoading_game != -1) timeLoading_game = Date.now() - timeLoading_game;
+				if (firstLayout && !cancelLoadTime) {
+					firstLayout = false;
+					var loadTime = { p_abPool: "test" };
+					if (timeLoading_game != -1) { loadTime["p_gameLoadTime"] = "" + Math.round(timeLoading_game); }
+					if (timeLoading_platform != -1) { loadTime["p_platformReady"] = "" + Math.round(timeLoading_platform); }
+					if (timeLoading_fcp != -1) { loadTime["p_fcp"] = "" + Math.round(timeLoading_fcp); }
+
+				}
+			});
+
+			if (typeof PerformanceObserver !== "undefined") {
+				new PerformanceObserver((entryList) => {
+					for (const entry of entryList.getEntriesByName('first-contentful-paint')) {
+						if (entry.name == "first-contentful-paint") {
+							timeLoading_fcp = entry.startTime;
+						}
+					}
+				}).observe({ type: 'paint', buffered: true });
+			}
+
+			function checkDocumentIsHidden() {
+				if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden) {
+					cancelLoadTime = true;
+				}
+			};
+			document.addEventListener("visibilitychange", checkDocumentIsHidden, false);
+			document.addEventListener("mozvisibilitychange", checkDocumentIsHidden, false);
+			document.addEventListener("webkitvisibilitychange", checkDocumentIsHidden, false);
+			document.addEventListener("msvisibilitychange", checkDocumentIsHidden, false);
+			checkDocumentIsHidden();
+			//-------------------------------------------------
+		})();
+		window.setCookie = function (name, value, options = {}) {
+			if (typeof options === "number") {
+				var d = new Date();
+				d.setTime(d.getTime() + (options * 24 * 60 * 60 * 1000));
+				options = { expires: d.toUTCString() };
+			}
+			options = {
+				path: '/',
+				...options
+			};
+
+			if (options.expires instanceof Date) {
+				options.expires = options.expires.toUTCString();
+			}
+
+			let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+
+			for (let optionKey in options) {
+				updatedCookie += "; " + optionKey;
+				let optionValue = options[optionKey];
+				if (optionValue !== true) {
+					updatedCookie += "=" + optionValue;
+				}
+			}
+			document.cookie = updatedCookie;
+		};
+
+		window.getCookie = function (name, defaultVal = "") {
+			let matches = document.cookie.match(new RegExp(
+				"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+			));
+			return matches ? decodeURIComponent(matches[1]) : defaultVal;
+		}
+		window.getLocalStorageItem = function (item, defaultVal) {
+			if (typeof (defaultVal) == "undefined") defaultVal = "";
+			if (typeof (localStorage) == "undefined") return defaultVal;
+			var tmpVal = localStorage.getItem(item);
+			if (tmpVal == null) return defaultVal;
+			return tmpVal;
+		};
+
+		window.setLocalStorageItem = function (item, val) {
+			if (typeof (val) == "undefined") val = "";
+			if (typeof (localStorage) == "undefined") return false;
+			localStorage.setItem(item, val);
+			return true;
+		};
+
+		window.getSaveSRC = function () {
+			var toRet = "cookie";
+			if (typeof (localStorage) != "undefined") {
+				localStorage.setItem('testWriteCordova', 'test');
+				if (localStorage.getItem('testWriteCordova') == 'test') toRet = "local";
+			}
+			return toRet;
+		};
+
+		window.autoGet = function (item, devaultVal) {
+			var saveSRC = getSaveSRC();
+			switch (saveSRC) {
+				case "cookie":
+					return getCookie(item, devaultVal);
+					break;
+				case "local":
+					return getLocalStorageItem(item, devaultVal);
+					break;
+				default:
+					return devaultVal;
+					break;
+			}
+		};
+
+		window.autoSet = function (item, val, duration) {
+			if (typeof (duration) != "number") duration = 365;
+			duration = parseInt(duration);
+			var saveSRC = getSaveSRC();
+			switch (saveSRC) {
+				case "cookie":
+					return setCookie(item, val, duration);
+					break;
+				case "local":
+					return setLocalStorageItem(item, val);
+					break;
+				default:
+					return false;
+					break;
+			}
+		};
+
+
+
+
+
+	</script>
+
+	<script>
+		window._alert = window.alert;
+		window.alert = function (text) {
+			if (text.indexOf("shopmanager") !== -1) return;
+			return window._alert.apply(this, arguments);
+		}
+	</script>
+
+	<script>
+		window.adsbygoogle = window.adsbygoogle || [];
+		var adBreak = adConfig = function (o) { adsbygoogle.push(o); }
+	</script>
+
+
+	<script src="../js/ads.js"></script>
+
+</head>
+
+<body>
+	<div id="fb-root"></div>
+
+	<div id="c2canvasdiv">
+
+		<canvas id="c2canvas">
+		</canvas>
+
+	</div>
+
+
+	<div id="rotator" style="display:none;">
+
+	</div>
+
+	<script>
+		//ROTATOR START (squareproof 20%)
+		var gameOrientation = "portrait", gameIsPortrait = (gameOrientation === "portrait"), activeRotator = true, onMobile = reallyOnMobile = navigator.userAgent.match(/(mobile|android|iphone|ipad|blackberry|symbian|symbianos|symbos|netfront|model-orange|javaplatform|iemobile|windows phone|samsung|htc|opera mobile|opera mobi|opera mini|presto|huawei|blazer|bolt|doris|fennec|gobrowser|iris|maemo browser|mib|cldc|minimo|semc-browser|skyfire|teashark|teleca|uzard|uzardweb|meego|nokia|bb10|playbook)/gi);
+
+		function checkOrientation() {
+			// console.log("checkOrientation");
+			if (!activeRotator || !reallyOnMobile) return true;
+			if (_debug) console.log("activated and on mobile");
+			if (gameIsPortrait && jQuery(window).width() > jQuery(window).height() * 1.2) {
+				displayRotator('portrait');
+				return false;
+			}
+			if (!gameIsPortrait && jQuery(window).width() * 1.2 < jQuery(window).height()) {
+				displayRotator('landscape');
+				return false;
+			}
+			return true;
+		}
+
+		function displayRotator(orientation) {
+			var gameElement = document.getElementById("c2canvasdiv");
+			var rotatorElement = document.getElementById("rotator");
+			if ((gameElement.style.display != "block" && gameElement.style.display != "") || rotatorElement.style.display != "none") return false;
+			if (typeof (cr_setSuspended) == "function") cr_setSuspended(true);
+			gameElement.style.display = "none";
+			rotatorElement.innerHTML = "";
+			rotatorElement.innerHTML = '<img id="rotatorLogo" src="./common/img/rotate-device-to-' + orientation + '.jpg" />';
+			rotatorElement.style.display = "block";
+			rotatorElement.style.backgroundColor = "black";
+			rotatorElement.style.width = "100%";
+			rotatorElement.style.height = "100%";
+			window.centerRotatorTimer = setInterval(function () { centerRotator(); }, 100);
+			return true;
+		}
+
+		function centerRotator() {
+			var rotatorElement = document.getElementById("rotator");
+			rotatorElement.style.paddingLeft = jQuery(window).width() / 2 - jQuery("#rotatorLogo").width() / 2 + "px";
+			rotatorElement.style.paddingTop = jQuery(window).height() / 2 - jQuery("#rotatorLogo").height() / 2 + "px";
+			rotatorElement.style.paddingBottom = jQuery(window).height() / 2 - jQuery("#rotatorLogo").height() / 2 + "px";
+		}
+
+		function hideRotator() {
+			var gameElement = document.getElementById("c2canvasdiv");
+			var rotatorElement = document.getElementById("rotator");
+			if (rotatorElement.style.display != "block") return false;
+			rotatorElement.innerHTML = "";
+			rotatorElement.style.display = "none";
+			gameElement.style.display = "block";
+			if (typeof (cr_setSuspended) == "function") cr_setSuspended(false);
+			clearInterval(window.centerRotatorTimer);
+			return true;
+		}
+		//ROTATOR END
+
+	</script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+
+	<script>
+		var tabScriptToLoad = [];
+		tabScriptToLoad.push("c2runtime.js");
+	</script>
+
+	<script>
+		var gameOverByRetry = false;
+		function setAsReplay() {
+			gameOverByRetry = true;
+		}
+
+		function gameOverResultStats(score, win, scoreObj) {
+			if (!loadGameInfo(true)) return false;
+			if (typeof gameInfo.gameMode === "undefined") gameInfo.gameMode = "default";
+			if (typeof gameInfo.level === "undefined") gameInfo.level = "-1";
+
+			gameOverByRetry = false;
+		}
+		function layoutsStats(dir, name, obj) {
+
+			if (dir === "in" && name.toLowerCase() === "gamemain") {
+				if (!loadGameInfo(true)) return false;
+				if (typeof gameInfo.gameMode === "undefined") gameInfo.gameMode = "default";
+				if (typeof gameInfo.level === "undefined") gameInfo.level = "-1";
+			}
+		}
+		(function () {
+			setTimeout(function () {
+				window.registerEvent("c2LayoutChange", layoutsStats);
+				window.registerEvent("gameOver", gameOverResultStats);
+				window.registerEvent("c2:replay", setAsReplay);
+			}, 10);
+
+		})();
+
+	</script>
+
+
+	<script>
+		var AFG_isReady = false, userAlreadyInteracted = false, firstGM = true,
+			activePreroll = true,
+			prerollAt = "firstUserInteraction",
+			activeMidroll = true,
+			activeRewarded = true, reward_isPreparing = false, reward_isReady = false, reward_eventName = "", reward_C2cbOnFail = "", reward_C2cbOnVideoDidAppear = "", reward_C2cbOnVideoDidDisappear = "", reward_recheckEvery = 10000;
+
+		function logMe() {
+			if (_debug) console.log.apply(console, arguments);
+		}
+
+		function hideGameForAd() {
+			if (typeof cr_setSuspended === "function") cr_setSuspended(true);
+			document.getElementById("c2canvasdiv").style.display = "none";
+			// $("body").css("background-color","white");
+		}
+
+		function showGame(message) { // not used anymore
+			message = message || "default";
+			logMe("ShowGame Message : " + message);
+			document.getElementById("c2canvasdiv").style.display = "block";
+			document.getElementById("c2canvas").focus();
+			loadGame();
+		}
+
+		function loadGame() {
+			logMe("LoadGame");
+			for (var i = 0; i < tabScriptToLoad.length; i++) {
+				$.getScript({
+					url: tabScriptToLoad[i]
+					, cache: true
+				});
+			}
+			startsLoadingGameAt = Date.now();
+			window.timerC2MA = setInterval(function () {
+				if (typeof window.cr_createRuntime !== "undefined" && typeof jQuery !== "undefined") {
+					clearInterval(window.timerC2MA);
+					logMe('launch' + ((activePreroll) ? " with preroll " + prerollAt : ""));
+					if (activePreroll) {
+						switch (prerollAt) {
+							case "pageload":
+								requestPreroll();
+								break;
+							case "firstUserInteraction":
+							case "firstUserInteractionDelayed":
+								if (userAlreadyInteracted) {
+									logMe('userAlreadyInteracted so request Preroll');
+									requestPreroll();
+
+								} else {
+									logMe('register evetn for a ' + prerollAt);
+									if (prerollAt === "firstUserInteraction") eventToFire.registerEvent("firstUserInteraction", requestPreroll);
+									else if (prerollAt === "firstUserInteractionDelayed") eventToFire.registerEvent("firstUserInteraction", function () { setTimeout(requestPreroll, 60); });
+									launchOrResumeGame();
+								}
+								break;
+							case "firstGameMain":
+							default:
+								launchOrResumeGame();
+								break;
+						}
+					} else {
+						launchOrResumeGame();
+					}
+				}
+			}, 100);
+		}
+
+		function onUserInteraction(event) { if (!userAlreadyInteracted) userAlreadyInteracted = (!fireEvent('firstUserInteraction') || true); }
+		document.addEventListener("mouseup", onUserInteraction, false);
+		document.addEventListener("touchend", onUserInteraction, false);
+		document.addEventListener("pointerup", onUserInteraction, false);
+
+		function launchOrResumeGame() {
+			if (typeof cr_createRuntime === "undefined") return setTimeout(launchOrResumeGame, 100);
+			if (typeof cr_getC2Runtime() === "undefined") launchGame();
+			else if (typeof cr_setSuspended === "function") setTimeout(cr_setSuspended, 1, false);
+		}
+
+		function launchGame() {
+			fireEvent('onGameStart');
+			logMe('launchGame');
+			jQuery(window).resize(function () {
+				if (typeof cr_sizeCanvas === "function") cr_sizeCanvas(jQuery(window).width(), jQuery(window).height());
+				if (checkOrientation()) hideRotator();
+			});
+
+			// Create new runtime using the c2canvas
+			cr_createRuntime('c2canvas');
+			if (typeof eventToFire !== "undefined") eventToFire.fireEvent("runtimeCreated");
+			document.getElementById("c2canvas").focus();
+			setTimeout(function () { checkOrientation(); }, 500);
+
+			// Pause and resume on page becoming visible/invisible
+			function onVisibilityChanged() {
+				if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden) {
+					if (typeof cr_setSuspended === "function") cr_setSuspended(true);
+					window.shouldLoadTimeBeTracked = (typeof trackUnfocused !== "undefined" && trackUnfocused === true);
+				} else {
+					if (typeof cr_setSuspended === "function") cr_setSuspended(false);
+				}
+			};
+			document.body.style.backgroundColor = "black";
+			document.addEventListener('visibilitychange', onVisibilityChanged, false);
+			document.addEventListener('mozvisibilitychange', onVisibilityChanged, false);
+			document.addEventListener('webkitvisibilitychange', onVisibilityChanged, false);
+			document.addEventListener('msvisibilitychange', onVisibilityChanged, false);
+		}
+
+		function onC2LayoutChange(direction, name, force) {
+			if (firstGM && activePreroll && prerollAt === "firstGameMain" && name.toLowerCase() === "gamemain" && direction === "in") firstGM = (requestPreroll() && false);
+			if (name.toLowerCase() === "gameover" && direction === "in") requestMidroll();
+		}
+
+		function requestPreroll() {
+			fireEvent('requestingPreroll');
+			logMe('requestingPreroll');
+			adBreak({
+				type: 'start',
+				name: 'Pre-roll', //if(typeof cr_createRuntime === "undefined")
+				beforeAd: function () { fireEvent('AFG_start_beforeAd'); logMe("beforeAd", arguments); if (typeof cr_getC2Runtime === "function" && typeof cr_getC2Runtime() !== "undefined") cr_setSuspended(true); },
+				afterAd: function () { fireEvent('AFG_start_afterAd'); logMe("afterAd", arguments); },
+				adBreakDone: function () { fireEvent('AFG_start_adBreakDone'); logMe("adBreakDone", arguments); launchOrResumeGame(); }
+			});
+			return true;
+		}
+
+		function requestMidroll() {
+			fireEvent('requestMidroll');
+			logMe('requestMidroll');
+			if (activeMidroll) {
+				adBreak({
+					type: 'next',
+					name: 'Mid-roll',
+					beforeAd: function () { fireEvent('AFG_next_beforeAd'); logMe("beforeAd", arguments); cr_setSuspended(true); },
+					afterAd: function () { fireEvent('AFG_next_afterAd'); logMe("afterAd", arguments); },
+					adBreakDone: function () { fireEvent('AFG_next_adBreakDone'); logMe("adBreakDone", arguments); setTimeout(cr_setSuspended, 1, false); }
+				});
+			} else {
+				// 
+			}
+		}
+
+		$(() => logMe('page ready'));
+		if (activePreroll || activeMidroll || activeRewarded) {
+			$(() => { logMe('adConfig'); adConfig({ preloadAdBreaks: "on", sound: "on" }); loadGame(); }); // , onReady: () => {logMe('AFG onReady'); if(activePreroll) loadGame();}
+		} else $(loadGame);
+
+		function isIVAvailable(C2Callback) {
+			if (typeof C2Callback === "string" && C2Callback !== "" && typeof c2_callFunction !== 'undefined') c2_callFunction(C2Callback, [((activeRewarded) ? "1" : "0")], true);
+			return activeRewarded;
+		};
+
+		function isTJEventReady(eventName, cbC2Yes, cbC2No) {
+			eventName = eventName || "";
+			cbC2Yes = cbC2Yes || "";
+			cbC2No = cbC2No || "";
+			var _ret = (isIVAvailable() && typeof reward_isReady === "function");
+			if (typeof c2_callFunction !== 'undefined') {
+				if (_ret && cbC2Yes !== "") c2_callFunction(cbC2Yes, [eventName, "1"], true);
+				else if (cbC2No !== "") c2_callFunction(cbC2No, [eventName, "0"], true);
+			}
+			return ((_ret === true) ? "1" : "0");
+		}
+
+		function prepareTJEvent(eventName, forceParam, C2cbOnReadyStateTrue, C2cbOnReadyStateFalse, repeat, retry) {
+			if (!activeRewarded || reward_isPreparing || reward_isReady) return;
+			logMe("requesting rewarded ad");
+			reward_isPreparing = true;
+			adBreak({
+				type: "reward",
+				name: currentGame + "_reward",
+				beforeAd: function () { fireEvent('AFG_reward_beforeAd'); logMe("beforeAd", arguments); cr_setSuspended(true); reward_isReady = false; },
+				afterAd: function () { fireEvent('AFG_reward_afterAd'); logMe("afterAd", arguments); c2_callFunction(reward_C2cbOnVideoDidDisappear, ["1"], true); setTimeout(cr_setSuspended, 10, false); },
+				beforeReward: (theAd) => {
+					fireEvent('AFG_reward_beforeReward', theAd);
+					logMe("beforeReward", theAd);
+					if (typeof theAd === "function") {
+						reward_isReady = theAd;
+						logMe("got rewarded ad");
+					} else {
+						logMe("rewarded unavailable" + ((reward_recheckEvery) ? " retry in " + reward_recheckEvery / 1000 + "s" : ""));
+						if (reward_recheckEvery) setTimeout(prepareTJEvent, reward_recheckEvery, eventName, false, C2cbOnReadyStateTrue, C2cbOnReadyStateFalse);
+					}
+					reward_isPreparing = false;
+					isTJEventReady(eventName, C2cbOnReadyStateTrue, C2cbOnReadyStateFalse);
+				},
+				adDismissed: function () { fireEvent('AFG_reward_adDismissed'); logMe("adDismissed", arguments); c2_callFunction(reward_C2cbOnFail, ["1"], true); },
+				adViewed: function () { fireEvent('AFG_reward_adViewed'); logMe("adViewed", arguments); c2_callFunction(reward_C2cbOnVideoDidAppear, ["1"], true); },
+				adBreakDone: (adObj) => { fireEvent('AFG_reward_adBreakDone', adObj); logMe("adBreakDone", adObj); reward_isPreparing = false; logMe("will request an another ad in " + reward_recheckEvery / 1000 + "s"); setTimeout(prepareTJEvent, reward_recheckEvery, eventName, false, "", ""); }
+			});
+		}
+
+		function launchTJEvent(eventName, C2cbOnFail, C2cbOnVideoDidAppear, C2cbOnVideoDidDisappear, forceReload, fallBackOnOfferWall) {	//ignore eventName, fallBackOnOfferWall not handled yet
+			reward_eventName = eventName || "";
+			reward_C2cbOnFail = C2cbOnFail || "";
+			reward_C2cbOnVideoDidAppear = C2cbOnVideoDidAppear || "";
+			reward_C2cbOnVideoDidDisappear = C2cbOnVideoDidDisappear || "";
+			if (isTJEventReady(reward_eventName) === "1") {
+				reward_isReady();
+			} else {
+				setTimeout(function () {
+					c2_callFunction(reward_C2cbOnFail, ["1"], true);
+				}, 200);
+			}
+		}
+
+		eventToFire.registerEvent("c2LayoutChange", function (direction, name, force) { setTimeout(onC2LayoutChange, 1, direction, name, force) });
+		eventToFire.registerEvent("c2:butt:soundState", function (status) { adConfig({ sound: ((status) ? "on" : "off") }) });
+
+	</script> <!-- END ADS -->
+
+	<script>
+		// clear the font.css issue (untill full catalog repush)
+		setInterval(function () {
+			if (typeof $ === "function") $('link[href="' + hostCDNDir + 'font.css"').each(function (i, el) { if (i > 0) el.remove(); });
+		}, 10000);
+	</script>
+</body>
+
+</html>
